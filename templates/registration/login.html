@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="/static/css/login.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="container">
+<div class="mainContainer">
+<div class="formPage">
+<nav class="formCtlBlock">
+<a href="#" class="loginBtn active" data-tab="tab-1"><span>Login</span></a>
+<a href="#" class="registerBtn" data-tab="tab-2"><span>register</span></a>
+</nav>
+<div class="login formBlock active" id="tab-1">
+<form name="loginform">
+<p>Login to your account:</p>
+<div class="form-group">
+<input type="text" name="username" id="username" placeholder="Username" autocomplete="off">
+<p id="unError" class="error"></p>
+</div>
+<div class="form-group">
+<input type="password" name="password" id="password" placeholder="Password">
+<p id="pwError" class="error"></p>
+</div>
+<div class="form-group alignRight">
+<button onclick="return validateLogin();">Submit</button>
+</div>
+</form>
+{% if user.is_authenticated %}
+	<h1>{{user.fisrt_name}}</h1>
+{% else %}
+	<h2>You need to register</h2>
+{% endif %}
+<form action="" method="POST">
+	{% csrf_token %}
+	{{form.as_ul}}
+	<input type="hidden" value="{{next}}">
+	<input type="submit" value="Login">
+</form>
+</div>
+<div class="register formBlock" id="tab-2">
+<form name="registerform">
+<p>Create a account:</p>
+<div class="form-group">
+<input type="text" name="username" id="regusername" placeholder="Username" autocomplete="off">
+<p id="reguserError" class="error"></p>
+</div>
+<div class="form-group">
+<input type="password" name="password" id="regpassword" placeholder="Password">
+<p id="regpwError" class="error"></p>
+</div>
+<div class="form-group">
+<input type="password" name="cpassword" id="regcpassword" placeholder="Confirm password">
+<p id="regcpwError" class="error"></p>
+</div>
+<div class="form-group">
+<input type="text" name="email" id="regemail" placeholder="Email Address" autocomplete="off">
+<p id="regemailError" class="error"></p>
+</div>
+<div class="form-group alignRight">
+<button onclick="return validateRegister();">Submit</button>
+</div>
+</form>
+</div>
+</div> <!-- /.formPage -->
+</div> <!-- /.mainContainer -->
+</div> <!-- /.container -->
+<script src="/static/js/main.js"></script>
+</body>
+</html>
