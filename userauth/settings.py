@@ -103,8 +103,13 @@ AUTH_PASSWORD_VALIDATORS = [
 AUTHENTICATION_BACKENDS = [
     'django.contrib.auth.backends.ModelBackend',
 ]
-LOGIN_URL = '/login/'
-LOGIN_REDIRECT_URL = '/'
+
+LOGIN_URL = '/login/'# kirish uchun
+
+LOGIN_REDIRECT_URL = '/' #kirish amalga oshganda
+
+LOGOUT_REDIRECT_URL = '/' #chqish amalga oshganda
+
 # Internationalization
 # https://docs.djangoproject.com/en/3.1/topics/i18n/
 

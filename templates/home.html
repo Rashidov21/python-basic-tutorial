@@ -8,7 +8,16 @@
 <body>
 	<center>
 		<h1>Home Page</h1>
-		<h1>{{request.user.first_name}}</h1>
+		{% if request.user.is_authenticated %}
+			<h2>Welcome to your page</h2>
+			<h3>{{request.user.first_name}}</h3>
+		{% else %}
+			<h3>Login</h3>
+			<p>
+				<a href="{% url 'login' %}">Login</a>
+			</p>
+		{% endif %}
+		
 	</center>
 	
 </body>
