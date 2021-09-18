@@ -27,9 +27,12 @@
 # print(r"Hello \n \t")
 # file =  open(r"test.txt", "r")
 # print(file.read())
+# print(file.readlines())
+# print(file.write("str"))
+# print(file.writelines("str"))
 # file.close()
 
-# with as  file ni as operatori orqali nomlab ochish va avtomatik yopish
+# with as : file ni as operatori orqali nomlab ochish va avtomatik yopish
 # with open(r"test.txt", "r") as file:
 #     print(file.read())
 
