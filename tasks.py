@@ -49,3 +49,4 @@
 # xosil qilib uni tuple da saqlaydigan getRandomCode() function ni yozing
 # maslan user = 3
 # t = ("dddas54f5","asfddv6c","cncnku5d52")
+
