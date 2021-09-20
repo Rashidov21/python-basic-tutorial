@@ -12,7 +12,7 @@ logging.basicConfig(
 )
 
 
-TOKEN = "1133552059:AAGZabDmcIcgpukOOo5ItHvYihEvuIMjiDE"
+TOKEN = ""
 SOCCER_API_URL = "https://football-pro.p.rapidapi.com/api/v2.0/livescores"
 SOCCER_API_HEADERS = {
     'x-rapidapi-key': "0202709d4emshbe87778ed9b4962p1f76cdjsn4a200e532763",

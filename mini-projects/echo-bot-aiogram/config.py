@@ -9,6 +9,6 @@ def create_DB_cursor():
 #                    last_name text, bio text,phone text)
 #                """)
 
-TOKEN = "1208478917:AAHtOVDa5PoWDl_l9IDZbU_lFThTMp98eJc"
-MY_ID = 668618297
+TOKEN = ""
+MY_ID = 0
 DB_FILENAME = 'db_bot.db'

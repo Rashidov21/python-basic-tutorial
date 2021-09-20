@@ -13,7 +13,7 @@ def create_DB_cursor():
 #                    last_name text, bio text)
 #                """)
 
-bot = telebot.TeleBot('1720356473:AAHYnusESxOqJc2PRXSlsNUkr8slIh6Vs-8',parse_mode=None)
+bot = telebot.TeleBot('',parse_mode=None)
 keyboard = types.InlineKeyboardMarkup(row_width = 3)
 nott = types.InlineKeyboardButton(text="\U0001f600", callback_data='bad')
 bad = types.InlineKeyboardButton(text="\U0001F606", callback_data='normal')
