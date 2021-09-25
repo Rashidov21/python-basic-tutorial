@@ -191,3 +191,8 @@
 # input: user  = "123456970"
 # output: str  dagi barcha sonlarni bir biriga qoshin va agar 0 mavjud bolsa
 # summani print qiling script toxtasin
+
+# arr = [2,6,4,8,9,3,23,56,8,3,1]
+# print(arr)
+# arr.sort()
+# print(arr)

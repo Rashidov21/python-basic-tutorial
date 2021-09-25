@@ -50,3 +50,18 @@
 # maslan user = 3
 # t = ("dddas54f5","asfddv6c","cncnku5d52")
 
+# Selection sort
+# arr = [10,23,-8,6,-1,0,2,3,7]
+# N = len(arr)
+# for i in range(N - 1):
+#     m = arr[i]
+#     p = i
+#     for j in range(i+1, N):
+#         if m > arr[j]:
+#             m = arr[j]
+#             p = j
+#     if p != arr[i]:
+#         t = arr[i]
+#         arr[i] = arr[p]
+#         arr[p] = j
+# print(arr)

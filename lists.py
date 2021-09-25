@@ -84,3 +84,9 @@ letters = ['1','2','3','4','5', "q","w","e","r","t","y", "@","#","_","&","$"]
 # output: [12,963,1052,15]
 
 # /xb15 >> is_alpha >> split("/")
+
+r = list(range(10))
+print(r)
+
+def test():
+    print("Test func")
