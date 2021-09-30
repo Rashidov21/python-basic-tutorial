@@ -80,18 +80,18 @@ fake = Faker()
 # r4 = Robot("Test robot","model TEST")
 # r4.showPopulationCount()
 
-class Person:
-    def __init__(self,name,age):
-        self.name = name
-        self.age = age
-    def info(self):
-        print(f"{self.name} ismlik Person obyekti namunasi")
-
-class Student(Person):
-    def __init__(self):
-        print("Talaba obyekti namunasi")
-        Person.__init__(self,"Abdullo",15)
-s = Student()
-print(s.name)
-print(s.info())
+# class Person:
+#     def __init__(self,name,age):
+#         self.name = name
+#         self.age = age
+#     def info(self):
+#         print(f"{self.name} ismlik Person obyekti namunasi")
+#
+# class Student(Person):
+#     def __init__(self):
+#         print("Talaba obyekti namunasi")
+#         Person.__init__(self,"Abdullo",15)
+# s = Student()
+# print(s.name)
+# print(s.info())
 
