@@ -95,6 +95,58 @@ fake = Faker()
 # print(s.name)
 # print(s.info())
 
+# class MyClass:
+#     x = 10
+#
+#     def info(self):
+#         print(self.x)
+#
+# x = MyClass()
+# setattr(x, "y",20) # MyClass uchun yangi atrr qoshyapti
+# print(x.y) # 20
+#
+# delattr(x, "y") # MyClass ni y attr ni ochirib yuborildi
+# print(x.y) # AttributeError: 'MyClass' object has no attribute 'y'
+# class MyClass:
+#     x = 10
+#
+#     def __str__(self):
+#         return str(self.x)
+#
+#     def info(self):
+#         print(self.x)
+#
+# print(MyClass())
 
+# class Phone:
+#
+#     def __init__(self, color, model):
+#         self.color = color
+#         self.model = model
+#
+#     @staticmethod
+#     def myStmetod():
+#         print("this is static method in Phone class")
+#
+#     def check_sim(self, mobile_operator):
+#         if self.model == 'iphone' and mobile_operator == 'UMS':
+#             print('Your mobile operator is UMS')
+#
+# Phone.myStmetod()
 
+# p = Phone("gray","iphone")
+# # print(p.color , p.model)
+# p.check_sim(mobile_operator="UMS")
 
+# class MyClass:
+#     def __init__(self,x):
+#         self.__privateVar = x
+#
+#     def setVar(self,x):
+#         self.__privateVar = x
+#     def getVar(self):
+#         return self.__privateVar
+# c = MyClass(10)
+# print(c.getVar())
+# c.setVar(20)
+# print(c.getVar())
