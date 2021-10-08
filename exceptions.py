@@ -19,11 +19,11 @@
 # except (ValueError, NameError):
 #     print("Xatolik...")
 
-try: # Xatolikni qidiradi
-    x = 1 / 0.5
-except ZeroDivisionError as error: # xato bosa qilinishi kerak bolgan ishlar
-    print(error)
-else: # xato bomasa qilinishi kerak bolgan ishlar
-    print("else Block")
-finally: # har doim qilinishi kerak bolgan ishlar
-    print("Block finally ... every time!")
+# try: # Xatolikni qidiradi
+#     x = 1 / 0.5
+# except ZeroDivisionError as error: # xato bosa qilinishi kerak bolgan ishlar
+#     print(error)
+# else: # xato bomasa qilinishi kerak bolgan ishlar
+#     print("else Block")
+# finally: # har doim qilinishi kerak bolgan ishlar
+#     print("Block finally ... every time!")
