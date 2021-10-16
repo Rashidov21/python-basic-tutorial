@@ -75,4 +75,14 @@ def callback_inline(call):
 bot.polling(none_stop=True)
 # month = soup.find("span", class_="datetime__month").text
 # print(location.text) # geolocation is find | Toshkent
-
+# task 1
+# input: a ab cde ee
+# output:abcde 3
+# task 2
+# input: -5 , 12 , % 3 == 0 >>  6: -3, 0, 3, 6, 9, 12−3,0,3,6,9,12
+# output: 4.5
+# task 3
+# Sample Input: txt file
+# a3b4c2e10b1
+# Sample Output:
+# aaabbbbcceeeeeeeeeeb

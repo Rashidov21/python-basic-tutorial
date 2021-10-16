@@ -65,3 +65,7 @@
 #         arr[i] = arr[p]
 #         arr[p] = j
 # print(arr)
+
+
+# input: assalomu alaykum
+# ouput: alkmosu
