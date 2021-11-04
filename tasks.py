@@ -69,3 +69,15 @@
 
 # input: assalomu alaykum
 # ouput: alkmosu
+
+# task 1
+# Petya va Vasya karta oynayapti, ular o'radan butun musbat sonlar
+# biriktirlgan kartalarni tortishadi keyin qiymatlarini tekshirishadi
+# kimda kam qiymat bolsa u yana karta tortadi va kartani ozida olib qoladi
+# kartalar tugashi bilan kimda eng kam qiymat bolsa u yutgan boladi
+# oyin oxirida golibni ismini va ochkolarini maglubni ismi va ochkolarini
+# chiqaradgan dastur tuzing
+
+# input: kartalar soni 52 ,biriktirilishi mumkin bolgan sonlar: 3 < n < 999
+# output : winner = Vasya 12, looser=Petya 23
+
