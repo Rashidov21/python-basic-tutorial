@@ -21,7 +21,7 @@
 # ikkala massivda ham qatnashgan sonlarni chiqaring
 
 # task 6
-# dict ni qiymatlari osihsiga qarab saralang
+# dict ni qiymatlari osishiga qarab saralang
 # masalan : d = {'a':12, 'b':7} >> d = {'b':7, 'a':12}
 
 # task 7
