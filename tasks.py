@@ -81,3 +81,18 @@
 # input: kartalar soni 52 ,biriktirilishi mumkin bolgan sonlar: 3 < n < 999
 # output : winner = Vasya 12, looser=Petya 23
 
+a = 1
+try:
+    a = 2
+    print(a)
+    raise Exception()
+except:
+    a = 3
+    print(a)
+    raise
+else:
+    a = 4
+    print(a)
+finally:
+    a = 5
+    print(a)
