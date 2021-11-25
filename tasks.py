@@ -2,8 +2,10 @@
 # input :  arr = [2,3,4,5,6,7,8]
 # user numbers (index, step) 0 , 3
 # output :  arr = [3,4,5,2,6,7,8]
-
-# task 2
+# 2
+# let arr = [3,4,5,2,6,7,8] massivda istalgan sonni tanlasam shu sonni onga yoki chapga suruvchi functiuon yozing
+# masalan men 2 bilan 3 ni kiritsam function mendan sorasin 2-indexdagi elementni 3 ta index onga suremi yoki chapga deb chapga desam chapga sursin
+# # task 2
 # input: arr = [2,4,6,7,9]
 # output: max sum and min sum
 
