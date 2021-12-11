@@ -18,9 +18,9 @@ user = InstagramUser("Rashidov21")
 # print(user.username)
 # print(type(user.posts[0]))
 # print(dir(user.posts[0]))
-print(user.posts[0].post_url)
-print(user.posts[0].caption)
-print(user.posts[0].likes)
+# print(user.posts[0].post_url)
+# print(user.posts[0].caption)
+# print(user.posts[0].likes)
 
 
 
