@@ -83,18 +83,42 @@
 # input: kartalar soni 52 ,biriktirilishi mumkin bolgan sonlar: 3 < n < 999
 # output : winner = Vasya 12, looser=Petya 23
 
-a = 1
-try:
-    a = 2
-    print(a)
-    raise Exception()
-except:
-    a = 3
-    print(a)
-    raise
-else:
-    a = 4
-    print(a)
-finally:
-    a = 5
-    print(a)
+# a = 1
+# try:
+#     a = 2
+#     print(a)
+#     raise Exception()
+# except:
+#     a = 3
+#     print(a)
+#     raise
+# else:
+#     a = 4
+#     print(a)
+# finally:
+#     a = 5
+#     print(a)
+
+# d1 = {
+#     "a":1
+# }
+# d2 = {
+#     "b":2
+# }
+# d1.update(d2)
+# print(d1)
+# print(tuple(range(10)))
+
+# def mergeDict(*dicts):
+#     d = {}
+#     for i in dicts:
+#         d.update(i)
+#     return d
+# print(mergeDict(d1,d2, {"c":3}))
+
+# s = "alla"
+#count a  ?
+def func(letter, word):
+    return print(word.count(letter))
+
+func("a", "alla")

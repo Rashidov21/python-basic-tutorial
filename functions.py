@@ -9,15 +9,18 @@
 # def printOk():
 #     """This is my first function in Python"""
 #     print("Ok")
-# print(printOk())
+# # print(printOk())
+# printOk()
 
 # def func():
 #     pass
 #
+
 # def echo():
 #     print("echo hello world")
-#
-# echo() # funksiyani chaqirish
+# echo()  # funksiyani chaqirish
+
+
 
 # def plus(x,y):
 #     return x + y
@@ -31,9 +34,9 @@
 #     return max(arr)
 # m = getMaxValue([2,6,7,8,9])
 # print(m)
-# def userInfo(name,surname, age=None):
+# def userInfo(name,surname, age=0):
 #     return name + " " + surname + " " +  str(age)
-# print(userInfo("ali", 'vali', 23))
+# print(userInfo("ali", 'vali', 12))
 # num = 10
 # print(num)
 # def func(x):
@@ -73,16 +76,23 @@
 #         res += 1
 #     return res
 # print(summa(1,2,3,4,5))
+# def test(*args):
+#     l = []
+#     for i in args:
+#         l.append(i**2)
+#     return l
+# t = test(1,2,3,4,5)
+# print(t)
 
 # **kwargs
 #  ikita * lik metod bu berilayotgan argumentlarni dict ga joyledi
 
 # def func(**k):
-#     print(k)
+#     print(type(k))
 #     for i in k:
 #         print(i)
-# func(a=1,b=2,c=3)
-# func(abdullo=15,oylik=15000,kun=13)
+# # func(a=1,b=2,c=3)
+# func(abdullo="ishchi",oylik=15000,kun=13, tolandi=False)
 
 # def func(**kwargs):# keyword arguments
 #     print(kwargs)
@@ -105,11 +115,14 @@
 # f2 = lambda x,y=5:x * y
 # print(f2(10)) # 50
 # print(f2(10,2)) # 20
-
+# def arrUp(arr):
+#     l = lambda a:max(a)
+#     return l(arr)
+# print(arrUp([1,2,3,4,5]))
 # arr = list(range(0,11))
 # arr2 = []
+# f = lambda x: x ** 2
 # for i in arr:
-#     f = lambda x: x ** 2
 #     arr2.append(f(i))
 #
 # print(arr2)
