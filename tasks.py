@@ -118,7 +118,7 @@
 
 # s = "alla"
 #count a  ?
-def func(letter, word):
-    return print(word.count(letter))
-
-func("a", "alla")
+# def func(letter, word):
+#     return print(word.count(letter))
+#
+# func("a", "alla")
