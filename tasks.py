@@ -122,3 +122,8 @@
 #     return print(word.count(letter))
 #
 # func("a", "alla")
+
+def sum_two_number(x,y):
+    print(x+y)
+MAX_VALUE = 100
+apple = "Stive Jobs"

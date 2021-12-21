@@ -1,4 +1,4 @@
-from faker import Faker
+# from faker import Faker
 # Object:
 # 1-sifat >> atribute
 # 2-method >> hatti harakatlari
@@ -11,23 +11,27 @@ from faker import Faker
 #     # object ni atribut va metodlari
 #     pass
 
+#
 # class Car:
 #     def __init__(self,name,model,price):
 #         self.name = name
 #         self.model = model
 #         self.price = price
 #
-#
 #     def signal(self):
 #         print(self.name , "signal cholyapti...")
-
-# car1 = Car()
+#
+# car1 = Car("Damas", "Shevrolet", 14000)
+# car2 = Car("Moseratti", "Moseratti R3", 56000)
 #
 # print(car1.name)
 # print(car1.model)
 # print(car1.price)
+# print(car2.name)
+# print(car2.model)
+# print(car2.price)
 # print(car1.signal())
-#
+# print(car2.signal())
 # car2 = Car(name="Nexia",model="Shevrole",price=2500)
 # print(car2.name)
 # print(car2.model)
@@ -38,7 +42,7 @@ from faker import Faker
 # print(car3.model)
 # print(car3.price)
 
-fake = Faker()
+# fake = Faker()
 
 # import keyword
 # print(keyword.kwlist)
@@ -47,14 +51,14 @@ fake = Faker()
 # setattr()
 # delattr()
 
-# class MyClass:
-#     def __init__(self):
-#         self.x = 10
-#
-#     def get_x_value(self):
-#         return self.x
-#
-# c = MyClass()
+class MyClass:
+    def __init__(self):
+        self.x = 10
+
+    def get_x_value(self):
+        return self.x
+
+c = MyClass()
 #
 # print(getattr(c,"x"))
 # print(getattr(c,"get_x_value"))
@@ -74,24 +78,34 @@ fake = Faker()
 #
 #     def showPopulationCount(self):
 #         print(self.population)
-#
+# #
 # r1 , r2 ,r3 = Robot("R2D2","android"), Robot("CTD2","android"),Robot("Gt300","android")
-#
+# #
 # r4 = Robot("Test robot","model TEST")
 # r4.showPopulationCount()
 
-# class Person:
-#     def __init__(self,name,age):
-#         self.name = name
-#         self.age = age
-#     def info(self):
-#         print(f"{self.name} ismlik Person obyekti namunasi")
-#
-# class Student(Person):
-#     def __init__(self):
-#         print("Talaba obyekti namunasi")
-#         Person.__init__(self,"Abdullo",15)
-# s = Student()
+class Person:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+
+    def info(self):
+        print(f"{self.name} ismlik Person obyekti namunasi")
+
+class Student(Person):
+    def __init__(self,name,age,rating,collage_name):
+        self.name = name
+        self.rating = rating
+        self.collage_name = collage_name
+        print("Talaba obyekti namunasi")
+        Person.__init__(self,name,age)
+
+s = Student("Abdullo", 15, "superstar", "ATS")
+s2 = Student("Mike", 23, "none", "BTS")
+
+print(s2.info())
+print(s2.rating)
+print(s2.collage_name)
 # print(s.name)
 # print(s.info())
 
