@@ -84,28 +84,28 @@ c = MyClass()
 # r4 = Robot("Test robot","model TEST")
 # r4.showPopulationCount()
 
-class Person:
-    def __init__(self,name,age):
-        self.name = name
-        self.age = age
-
-    def info(self):
-        print(f"{self.name} ismlik Person obyekti namunasi")
-
-class Student(Person):
-    def __init__(self,name,age,rating,collage_name):
-        self.name = name
-        self.rating = rating
-        self.collage_name = collage_name
-        print("Talaba obyekti namunasi")
-        Person.__init__(self,name,age)
-
-s = Student("Abdullo", 15, "superstar", "ATS")
-s2 = Student("Mike", 23, "none", "BTS")
-
-print(s2.info())
-print(s2.rating)
-print(s2.collage_name)
+# class Person:
+#     def __init__(self,name,age):
+#         self.name = name
+#         self.age = age
+#
+#     def info(self):
+#         print(f"{self.name} ismlik Person obyekti namunasi")
+#
+# class Student(Person):
+#     def __init__(self,name,age,rating,collage_name):
+#         self.name = name
+#         self.rating = rating
+#         self.collage_name = collage_name
+#         print("Talaba obyekti namunasi")
+#         Person.__init__(self,name,age)
+#
+# s = Student("Abdullo", 15, "superstar", "ATS")
+# s2 = Student("Mike", 23, "none", "BTS")
+#
+# print(s2.info())
+# print(s2.rating)
+# print(s2.collage_name)
 # print(s.name)
 # print(s.info())
 

@@ -1,4 +1,4 @@
-Tanya:300
+strya:300
 Susan:123
 Thomas:89
 John:53

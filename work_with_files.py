@@ -22,15 +22,30 @@
 # a+ - qoshish + oqish
 # x - xosil qilish
 # x+ - xosil qilish agar oldindan mavjud bosa FileExistsError kotarish
+
+
 # num = 11
 # print(f"Hello \n {num}")
 # print(r"Hello \n \t")
-# file =  open(r"test.txt", "r")
+# file = open("test.txt", "r+")
 # print(file.read())
 # print(file.readlines())
-# print(file.write("str"))
-# print(file.writelines("str"))
+# file.write("str")
+# file.writelines("str")
+# fr = file.read()
+# print(fr)
 # file.close()
+
+# f = open("test.txt", "r")
+# cash = []
+# for i in f.readlines():
+#     try:
+#         s = i.split(":")[1]
+#         cash.append(s[:-2])
+#     except IndexError:
+#         print("Error")
+# f.close()
+# print(sum([int(x) for x in cash]))
 
 # with as : file ni as operatori orqali nomlab ochish va avtomatik yopish
 # with open(r"test.txt", "r") as file:
@@ -40,12 +55,23 @@
 # print(r.randint(10,20))
 
 # from bs4 import BeautifulSoup as bs # qayta nomlash
-from faker import Faker
-fake = Faker()
-# for i in range(10):
-#     n = fake.name()
-#     a = fake.address()
-#     print(f"name : {n} - address : {a}")
+# from faker import Faker
+# fake = Faker()
+# # print(dir(fake))
+#
+# with open("menifaylim.txt", "r+") as file:
+#     for i in range(10):
+#         n = fake.name()
+#         a = fake.address()
+#         file.writelines(f"name : {n} - address : {a} \n")
+# with open("menifaylim.txt", "r") as f:
+#     print(f.read())
+
+
+
+
+
+
 
 # with open(r"test.txt", "w+") as names:
 #     for i in range(5):

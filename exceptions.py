@@ -15,6 +15,33 @@
 # n = int(input())
 # print(n)
 # try:
+#     n = int(input()) # xatolik bor kod
+# except:
+#     print("Xatolik") # xatolik bolsa ishlaydigan kod
+# else:
+#     print("Xatolik yoq") # xatolik bolmasa ishlaydigan kod
+# finally:
+#     print("Farqi yo ishlaydi") # xatolik bolsa-bolmasa ishlaydigan kod
+#
+# print("Davom etadi")
+# # BaseException
+# try:
+#     x = 1 / 0
+# except:
+#     # raise ArithmeticError("1 , 0 ga bolinmedi")
+#     raise ArithmeticError
+# try:
+#     x = -3
+#     assert x >= 0, "Xatolik infosi"
+# except AssertionError as err:
+#     print(err)
+
+# assert 10 > 1 # ifoda True bolsa gap yoq
+# assert 10 < 1 # ifoda False AssertionError vujudga keladi
+# print()
+
+# print(x)
+# try:
 #     n = int(input())
 # except (ValueError, NameError):
 #     print("Xatolik...")
