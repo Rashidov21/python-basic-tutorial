@@ -3,13 +3,13 @@
 #
 # con = sqlite3.connect("person.db")
 # cur = con.cursor()
-# # sql = """\
-# #     CREATE TABLE person(
-# #         person_id INTEGER PRIMARY KEY AUTOINCREMENT,
-# #         name TEXT,
-# #         age TEXT
-# #     );
-# # """
+# sql = """\
+#     CREATE TABLE person(
+#         person_id INTEGER PRIMARY KEY AUTOINCREMENT,
+#         name TEXT,
+#         age TEXT
+#     );
+#     """
 # sql = """\
 #     INSERT INTO person(name,age)
 #     VALUES("Abdullo","15");
