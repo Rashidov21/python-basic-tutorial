@@ -2,8 +2,8 @@ import logging
 import sqlite3
 from aiogram import Bot, Dispatcher, executor, types
 logging.basicConfig(level=logging.INFO)
-TOKEN = "1995282608:AAEuHxV3TjxdUCr2c7DuGMSgB_oavkuaHbY"
-me = 668618297
+TOKEN = ""
+me = 0
 # con = sqlite3.connect("users.db")
 # cur = con.cursor()
 #
