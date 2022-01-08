@@ -8,7 +8,7 @@ from weatherAPI import getWeather
 
 
 logging.basicConfig(level=logging.INFO)
-TOKEN = "1995282608:AAHgCF249xJdHInqfX97zBQ-zbliTTGSZoQ"
+TOKEN = "your token"
 me = 0
 bot = Bot(token=TOKEN)
 dp = Dispatcher(bot)

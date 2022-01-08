@@ -1,8 +1,8 @@
 import telepot
 
-TOKEN = '1995282608:AAHgCF249xJdHInqfX97zBQ-zbliTTGSZoQ'
+TOKEN = ''
 bot = telepot.Bot(TOKEN)
-me = 668618297
+me = 0
 
 def sender(title , description):
     bot.sendMessage(me, f"{title} \n {description}")
