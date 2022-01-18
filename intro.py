@@ -1,6 +1,9 @@
 # import keyword
 # print(keyword.kwlist)
+from urllib.parse import parse_qs
 
+mv = parse_qs("red=5&blue=0&green=1",keep_blank_values=True)
+print(mv)
 # Data Types
 # bool , None , Type, int , float , complex , str, bytes, bytearray,
 # list,tuple, dict
@@ -88,10 +91,10 @@
 # info1 = "Mening yoshim {0}da Vaznim esa {1}kg \n".format(age,weight) # Python 2.7
 # info2 = f"Mening yoshim {age}da Vaznim esa {weight}kg" # Python 3.5
 # print(info1,info2)
-age = 10
-year = 2012
-print("Yoshim {0} da ,{1} chi yili tugilganman".format(age,year))
-print(f"{age}, {year}")
+# age = 10
+# year = 2012
+# print("Yoshim {0} da ,{1} chi yili tugilganman".format(age,year))
+# print(f"{age}, {year}")
 # x = 10 # int
 # x = str(x) # str
 # y = '10' # str
