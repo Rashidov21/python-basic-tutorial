@@ -123,7 +123,26 @@
 #
 # func("a", "alla")
 
-def sum_two_number(x,y):
-    print(x+y)
-MAX_VALUE = 100
-apple = "Stive Jobs"
+# import random
+
+# print(random.random()) 0 bilan 1 orasida
+# s = 'python'
+# print(random.choice(s)) # random 1 sini tanlash
+# a = [1,2,3,4,5]
+# random.shuffle(a)
+# print(a) # massivni indexlarini alishtrish
+# b = random.sample(a,3) # ketmaketlikdan tasodifiy siz korsatgancha elem, olish
+# print(b)
+#
+# while orqali userni ismidan tasodify harflarni oling agar harf "s"
+# ga togri kelsa sikl toxtasin va nechi marta sikl bogani hisoblansin
+# max()
+# min()
+
+# print(max([1,2,3])) # 3
+# print(min([1,2,3])) # 1
+# print(min("Hello world"))
+# print(ord("W"))# 87
+# print(chr(76)) # L
+# for i in range(3):
+#     print(random.randint(1, 100))

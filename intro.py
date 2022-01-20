@@ -1,9 +1,6 @@
 # import keyword
 # print(keyword.kwlist)
-from urllib.parse import parse_qs
 
-mv = parse_qs("red=5&blue=0&green=1",keep_blank_values=True)
-print(mv)
 # Data Types
 # bool , None , Type, int , float , complex , str, bytes, bytearray,
 # list,tuple, dict

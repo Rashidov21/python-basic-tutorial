@@ -22,10 +22,33 @@
 # else:
 #     print('Boshqa harflar bor...')
 
-#1. inputda t harfi bormi yoqmi tekshiring , agar bosa bor deng bomasa yoq deng
+
+
+#1. inputda t harfi bormi yoqmi tekshiring , agar bosa bor deng bomasa
+# yoq deng
+
 #2. inputda son qabul qiling juft yoki toq ekanini aniqlang
+
 #3. OS nomlarini qabul qiling, agar windows bosa Microsoft
 # linux bosa Ubuntu , macOs bosa Apple sozlarini print qiling
+
+n = input()
+# if "t" in n:
+#     print("Ha")
+# else:
+#     print("YO")
+
+# print("XA" if len(n) > 5 else "YOQ")
+
+
+
+
+
+
+
+
+
+
 # op = input('1-5 orasida son kiriting')
 # if op != '':
 #     if op == '1':

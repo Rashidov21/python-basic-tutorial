@@ -2,27 +2,40 @@
 # while , for in
 
 # range() >> sonlar diapazoni >> sonlar oraligí
+# x = 0
 # for i in "str":
-#    print(i)
-# for i in range(1,6):
+#     x += 1
 #     print(i)
+# print(x)
+
+# for i in range(3):
+#     u = input("kirit")
+#     print(u)
+# print(type(range(3)))
 # apples = ['golden','semeranka']
 # for apple in apples:
-#     print(apple)
-# for i in "str":
+#     for letter in apple:
+#         print(letter)
+# for i in [1,2,3,4,5]:
 #     print(i, end="")
 # else:
 #     print("For tugadi !")
+# for i in range(10):
+#     for k in range(5):
+#         if i == k:
+#             print("oxshash")
+#         else:
+#             pass
 
 # for x in range(2,101,2):
 #     print(x)
 
 # s = "string"
-# print(type(len(s)))
+# print(type(len(s))) #class int
 # print(len(s)) # ketma ketlikni uzunligini aniqlash
 # l = len(s)
-# print(l)
-
+# print(l + 6) # 12
+# print(len([1,2,3,4,5]))
 arr = [1,5,6,9,87,2,3]
 
 # for x in arr:
@@ -34,18 +47,20 @@ arr = [1,5,6,9,87,2,3]
 
 # 1. ismizi kiriting  , har bir harfini yangi qatordan chiqaring
 
-# 2. yoshiz qadar 1 dan boshlab sonlarni chiqaring, har bir takrorlanishda weight
-# degan oz'garuvchiga 3 dan qo'shib tenglab ketin oxirida weight ni va har bitta
-# son console ga chiqsin
+# 2. yoshiz qadar 1 dan boshlab sonlarni chiqaring, har bir
+# takrorlanishda weight
+# degan oz'garuvchiga 3 dan qo'shib tenglab ketin oxirida weight
+# ni va har bitta son console ga chiqsin
 
-# 3. Maxfiy son berilgan foydalanuvchidan sonni tpishini sorang agar u kirtgan son
-# maxfiy sondan katta bosa katta kichik bosa kichik deb chiqsin
-# agar topsa toptiz degan narsa chiqsin
+
+# 3. Maxfiy son berilgan foydalanuvchidan sonni tpishini sorang agar
+# u kirtgan son maxfiy sondan katta bosa katta kichik bosa kichik
+# deb chiqsin agar topsa toptiz degan narsa chiqsin
 
 # a = 10 >> int
 # b = 'str' >> str
 
-arr = [1,5,6,9,87,2,3]
+# arr = [1,5,6,9,87,2,3]
 # while shart:
     # shart agara true bajaralidgan ishlar
 # i = 1
@@ -61,14 +76,13 @@ arr = [1,5,6,9,87,2,3]
 #         x = False
 #     print('Stop')
 
-
 # x = True
 # while x:
 #     password = input('parolni kiritng \n >> \a ')
 #     if password != '':
 #         if password == 'gandi123':
 #             print('Parol tori!')
-#             break
+#             break # sikldan chiqish
 #         else:
 #             print('Parol notori')
 #     else:
@@ -83,6 +97,17 @@ arr = [1,5,6,9,87,2,3]
 #         break #shart bajarilsa break siklni toxtatadi
 #     else:
 #         print(i)
+
+# Agar user stop deb yozsa while toxtasin, lekin user son kiritsa
+# nechta son kiritishidan qatiy nazar hammasini summasini aniqlang
+
+# Userdan soz sorang agar sozda k harfi 2 marta ishtirok etgan bolsa
+# ALERT degan soz print() qilinsin
+
+
+
+
+
 # summ = 0
 # while True:
 #     num = input('Son>>')
@@ -110,3 +135,14 @@ arr = [1,5,6,9,87,2,3]
 # if type(user) == int:
 #     print('OK')
 
+# a = [1,2,3,4,5]
+# for k,i in enumerate(a):
+#     print(f"index {k} - {i} elem")
+# i = 0
+# while i < 10:
+#     i += 1
+#     if i == 5:
+#         continue
+#     if i == 7:
+#         break
+#     print(i)

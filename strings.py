@@ -1,11 +1,12 @@
 # -*- coding: utf-8 -*-
 # s = str("new string")
 # s = "new str"
-# s = 'new str'
+# s = 'python'
 # s = """new str""" #kop qatorli str lar uchun + documentation uchun
 # print(s[0]) # 1- element
+# print(s[-5]) # 1- element
 # print(s[-1]) # oxirgi element
-# print(type(s))
+# print(type(s)) # class str
 
 # s = "next \n line"
 # s = "next \t line"
@@ -18,9 +19,10 @@
 # for i in s:
 #     print(i)
 # apple = "Apple Company"
-# print(apple[0:5]) # srez, index orqali qirqib olish
+# print(apple[5:]) # srez, index orqali qirqib olish
 # x = apple[0:5]
 # print(x)
+
 # print(apple)
 # print(apple[-8:-1])
 # print(apple[::-1])
@@ -30,17 +32,23 @@
 # print(p[4:8]) # indexlar boyicha olish
 # s = "Python" # len() >> int
 # print(len(s)) # 6 ta element bor
+# print("%s" % 10)
 # name = "abdullo"
 # age = 12
-# info = "Meni ismi {0}, yoshim esa {1} ".format(name, age) #python 2.7 versiyada
+# info = "Meni ismi {0}, yoshim esa {1}da ".format(name, age) #python 2.7 versiyada
 # print(info)
-# info = f"Meni ismi {name}, yoshim esa {age} " # python 3 va undan tepa versiya
+# info = f"Meni ismi {name}, yoshim esa {age}da " # python 3 va undan tepa versiya
 # print(info)
 # s = "abc Python abc is better abc"
+# print(s.split(" "))
+# a = "".join(s.split(" "))
+# print(a)
 # a = "\nabc\n"
-# print(s.strip("abc"))
+# print(s.strip("abc")) # siz korsatgan narsalarni qator boshi va oxiridan olib tashlaydi
 # print(a.strip())
-
+# print("str" * 2)
+# print("str" + "str2")
+# print("str" / 2)
 # s = "Javascript programming language"
 # arr = s.split(' ') #siz korsatgan belgi boyicha qatorni bolib listga yozadi
 # print(arr)
