@@ -146,3 +146,43 @@
 # print(chr(76)) # L
 # for i in range(3):
 #     print(random.randint(1, 100))
+
+# import random
+# salary = [random.randint(100,1000),random.randint(100,1000),random.randint(100,1000)]
+#
+# print(f"Eng kam oylik = ${min(salary) }")
+# print(f"Eng Katta oylik = ${max(salary) }")
+# print(f"Orasidagi farq = ${max(salary)  - min(salary)}")
+# import time
+# team1 = 0
+# team2 = 0
+# for i in range(1,5):
+#     sc1 = random.randint(15, 30)
+#     sc2 = random.randint(15, 30)
+#     team1 += sc1
+#     team2 += sc2
+#     print(f"Part {i} |Team 1 = {sc1} | Team 2 = {sc2}")
+#     time.sleep(2)
+# print(f"Total scores \n Team 1 = {team1} | Team 2 = {team2}")
+# print(f"Winner = Team with score {max(team1, team2)}")
+import random
+coins = []
+# print(random.randrange(-10 , 11))
+# for i in range(10):
+#     coins.append(random.choice(range(-10,10)))
+# print(coins)
+# for i in range(-10 , 11):
+#     print(i)
+
+s = input() # 123
+n = []
+for i in s:
+    n.append(int(i))
+for x in reversed(n):
+    print(x , end="")
+# n.reverse()
+
+
+# 321 type int
+
+
