@@ -165,8 +165,8 @@
 #     time.sleep(2)
 # print(f"Total scores \n Team 1 = {team1} | Team 2 = {team2}")
 # print(f"Winner = Team with score {max(team1, team2)}")
-import random
-coins = []
+# import random
+# coins = []
 # print(random.randrange(-10 , 11))
 # for i in range(10):
 #     coins.append(random.choice(range(-10,10)))
@@ -174,12 +174,12 @@ coins = []
 # for i in range(-10 , 11):
 #     print(i)
 
-s = input() # 123
-n = []
-for i in s:
-    n.append(int(i))
-for x in reversed(n):
-    print(x , end="")
+# s = input() # 123
+# n = []
+# for i in s:
+#     n.append(int(i))
+# for x in reversed(n):
+#     print(x , end="")
 # n.reverse()
 
 

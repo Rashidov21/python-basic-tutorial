@@ -51,7 +51,7 @@ timeit moduli
 #     print(i)
 ################################################################
 # datetime
-import datetime
+# import datetime
 # 1. timedelta
 # td = datetime.timedelta([days],[seconds],[microseconds],[milliseconds],[minutes],[hours], [week])
 # td = datetime.timedelta(weeks=1) #7 days, 0:00:00
