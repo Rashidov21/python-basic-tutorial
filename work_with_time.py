@@ -1,11 +1,17 @@
-"""
-Pythonda vaqt bilan ishlash
-time moduli
-datetime moduli
-calendar moduli
-timeit moduli
-
-"""
+# import time
+# or
+from time import time,ctime
+t = time()
+print(ctime(t))
+print(time.gmtime(0))
+# """
+# Pythonda vaqt bilan ishlash
+# time moduli
+# datetime moduli
+# calendar moduli
+# timeit moduli
+#
+# """
 # Modullarni ozimizni dasturimizga yuklymiz
 # import time
 # print(time.time()) 1970 1-yanvardan buyon xozirgi vaqtga qadar necha sekund otgani
