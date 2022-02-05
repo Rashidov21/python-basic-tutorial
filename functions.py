@@ -137,7 +137,7 @@
 # def deco(f):
 #     print("f funksiyasi chaqirildi")
 #     return f
-#
+# #
 # @deco
 # def func(x):
 #     return f"x = {x}"
@@ -152,7 +152,7 @@
 #             return lambda : "Sizga ruxsat yo'q !"
 #     return deco
 # @testPassword(password)
-# def func()
+# def func():
 #     return "Sizga ruxsat bor!"
 #
 # print(func())
@@ -171,10 +171,10 @@
 #     m = int(input("Qancha yechamiz ?"))
 #     balance = 100
 #     print("Chekni oling: balans=",balance-m)
-#
+# #
 # @check_pinCode(pin)
 # def addMoney():
-#     m = int(input("Qancha soamiz ?"))
+#     m = int(input("Qancha solamiz ?"))
 #     balance = 100
 #     print("Chekni oling: balans=", balance + m)
 #
