@@ -28,7 +28,8 @@
 
 # def getUserShortname(name,surname):
 #     return name + " " + surname
-# print(getUserShortname("Abdurahmon","Rashidov"))
+# r = getUserShortname("Abdurahmon","Rashidov")
+# print(r)
 
 # def getMaxValue(arr):
 #     return max(arr)
@@ -47,9 +48,9 @@
 # func(x=10,y=2)
 
 
-# def plus(a,b):
-#     return a + b
-
+# def plus(a,b=0):
+#     return a+b
+# print(plus(10))
 # def main(param1=10): # deafult params , doimiy qiymatlar
 #     print(param1)
 # main()
@@ -59,14 +60,15 @@
 
 # *args
 # bitta * lik metod bu berilayotgan argumentlarni tuple ga joyledi
-# def summa(*t):
+# def summa(*args):
 #     """ funksiya nomalum miqdorda qiymat qabul qiladi """
+#     print(type(args))
 #     res = 0
-#     for i in t:
+#     for i in args:
 #         res += 1
 #     return res
-#
-# print(summa(10,20))
+# #
+# # print(summa(10,20))
 # print(summa(10,20,30,40,50,60))
 
 # def summa(*args):
@@ -87,9 +89,9 @@
 # **kwargs
 #  ikita * lik metod bu berilayotgan argumentlarni dict ga joyledi
 
-# def func(**k):
-#     print(type(k))
-#     for i in k:
+# def func(**kwargs):
+#     print(type(kwargs))
+#     for i in kwargs.items():
 #         print(i)
 # # func(a=1,b=2,c=3)
 # func(abdullo="ishchi",oylik=15000,kun=13, tolandi=False)

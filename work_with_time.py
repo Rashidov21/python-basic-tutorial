@@ -1,9 +1,9 @@
 # import time
 # or
-from time import time,ctime
-t = time()
-print(ctime(t))
-print(time.gmtime(0))
+# from time import time,ctime
+# t = time()
+# print(ctime(t))
+# print(time.gmtime(0))
 # """
 # Pythonda vaqt bilan ishlash
 # time moduli

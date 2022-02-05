@@ -186,3 +186,18 @@
 # 321 type int
 
 
+# def strFunc(s):
+#     s = s.strip()
+#     s = s.split(" ")
+#     s = ",".join(s)
+#     return s
+#
+# test = " lorem ipsum dolor amet sit "
+# t = strFunc(test)
+# print(t)
+
+# text = "lorem"
+# def loremToTupple(s):
+#     s = tuple(s)
+#     return s
+# print(loremToTupple(text))
