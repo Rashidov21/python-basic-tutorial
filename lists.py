@@ -29,7 +29,7 @@
 # print(ls2)
 # name , age , salary = "Abdulhaq",15,0
 # print(name, age, salary)
-import random
+# import random
 # arr = [1,2,3,4,5,6]
 # print(random.choice(arr))
 
@@ -115,11 +115,11 @@ import random
 # dict()
 # d = dict(name="Abdulloh")
 # print(d["name"])
-user = {
-    "name":"Abdullo",
-    "age":12,
-    "is_admin":False
-}
+# user = {
+#     "name":"Abdullo",
+#     "age":12,
+#     "is_admin":False
+# }
 # user["name"] = "John" # mavjud elemni ozgartirish
 # user["skills"] = ["html","css"] # yangi elem qoshish
 # print(user)
@@ -215,3 +215,35 @@ user = {
 # """
 # t3 = Timer(stmt=code3)
 # print("sum:", t3.timeit(number=1000))
+
+
+# a = [1,2]
+# b = [3,4]
+# print(zip(a,b)) # [(1, 3), (2, 4)]
+
+# def func(x, y):    
+#     return x*y
+
+# a = [1,3]
+# b = [3,4,5]
+# a = map(func, a, b)
+# for i in a:
+#     print(i)
+
+# a = list(range(6))
+# # b = list(range(99,103))
+# for i in zip(a,"python"):
+#     print(i, end="")
+
+# def toUp(num):
+#     return num * num
+
+# a = list(range(1,6))
+
+# for i in map(toUp, a):
+#     print(i, end="")
+
+
+
+
+

@@ -32,7 +32,7 @@
 #3. OS nomlarini qabul qiling, agar windows bosa Microsoft
 # linux bosa Ubuntu , macOs bosa Apple sozlarini print qiling
 
-n = input()
+n = 10
 # if "t" in n:
 #     print("Ha")
 # else:

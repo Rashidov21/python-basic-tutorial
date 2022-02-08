@@ -211,3 +211,62 @@
 # print(arr)
 # arr.sort()
 # print(arr)
+
+# def main():
+#     """Bu meni function im"""
+#     print("Main func")
+    
+# x = 10
+# print(dir(x))
+# print(x.__doc__)
+# print(main.__doc__)
+
+# a = list(range(1,6))
+# for i in map(lambda x:x*x, a):
+#     print(i)
+
+# def func(x,y):
+#     for i in range(1, x+1):
+#         yield i * y
+
+# for x in func(10,2):
+#     print(x)
+
+# num = 5 # global
+
+# def test(x):
+#     global y 
+#     y = 2 # local 
+#     if True:
+#         print(num)
+#     return x * y
+# print(test(num))
+# print(y)
+# import random, time, datetime
+# # import time 
+# # import math
+# from ifelse import n
+# print(n)
+# # print(math.pi)
+# from math import pi
+# print(pi)
+# arr = [10,23,-8,6,-1,0,2,3,7]
+# N = len(arr)
+# for i in range(N-1):
+#     m = arr[i]
+#     p = i
+#     for j in range(i+1, N):
+#         if m > arr[j]:
+#             m = arr[j]
+#             p = j
+#     if p != arr[i]:
+#         t = arr[i]
+#         arr[i] = arr[p]
+#         arr[p] = t
+# print(arr)
+
+# if __name__ == '__main__':
+#     print("asosiy modul")
+# else:
+#     print("Import qilingan modul")
+    
