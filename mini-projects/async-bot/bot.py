@@ -18,6 +18,7 @@ async def start_cmd_handler(message: types.Message):
         await message.reply_photo(ph,"Nike JPG")
     await message.reply("Hello")
 
+
     # keyboard_markup = types.ReplyKeyboardMarkup(row_width=3)
     # # default row_width is 3, so here we can omit it actually
     # # kept for clearness
