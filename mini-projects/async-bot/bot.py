@@ -14,25 +14,29 @@ dp = Dispatcher(bot)
 
 @dp.message_handler(commands='start')
 async def start_cmd_handler(message: types.Message):
-    keyboard_markup = types.ReplyKeyboardMarkup(row_width=3)
-    # default row_width is 3, so here we can omit it actually
-    # kept for clearness
+    with open("src/nike.jpg",'rb') as ph:
+        await message.reply_photo(ph,"Nike JPG")
+    await message.reply("Hello")
 
-    btns_text = ('Yes!', 'No!')
-    keyboard_markup.row(*(types.KeyboardButton(text) for text in btns_text))
-    # adds buttons as a new row to the existing keyboard
-    # the behaviour doesn't depend on row_width attribute
-
-    more_btns_text = (
-        "I don't know",
-        "Who am i?",
-        "Where am i?",
-        "Who is there?",
-    )
-    keyboard_markup.add(*(types.KeyboardButton(text) for text in more_btns_text))
-    # adds buttons. New rows are formed according to row_width parameter
-
-    await message.reply("Hi!\nDo you like aiogram?", reply_markup=keyboard_markup)
+    # keyboard_markup = types.ReplyKeyboardMarkup(row_width=3)
+    # # default row_width is 3, so here we can omit it actually
+    # # kept for clearness
+    #
+    # btns_text = ('Yes!', 'No!')
+    # keyboard_markup.row(*(types.KeyboardButton(text) for text in btns_text))
+    # # adds buttons as a new row to the existing keyboard
+    # # the behaviour doesn't depend on row_width attribute
+    #
+    # more_btns_text = (
+    #     "I don't know",
+    #     "Who am i?",
+    #     "Where am i?",
+    #     "Who is there?",
+    # )
+    # keyboard_markup.add(*(types.KeyboardButton(text) for text in more_btns_text))
+    # # adds buttons. New rows are formed according to row_width parameter
+    #
+    # await message.reply("Hi!\nDo you like aiogram?", reply_markup=keyboard_markup)
 
 
 @dp.message_handler()
