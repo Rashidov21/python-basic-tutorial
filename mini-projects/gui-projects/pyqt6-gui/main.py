@@ -1,7 +1,29 @@
 import sys
 
 
-from PyQt6.QtWidgets import QApplication, QLabel, QMainWindow, QTextEdit
+from PyQt6.QtWidgets import (
+    QApplication,
+    QCheckBox,
+    QComboBox,
+    QDateEdit,
+    QDateTimeEdit,
+    QDial,
+    QDoubleSpinBox,
+    QFontComboBox,
+    QLabel,
+    QLCDNumber,
+    QLineEdit,
+    QMainWindow,
+    QProgressBar,
+    QPushButton,
+    QRadioButton,
+    QSlider,
+    QSpinBox,
+    QTimeEdit,
+    QVBoxLayout,
+    QWidget,
+)
+
 
 # window_titles = [
 #     'My App',
@@ -14,26 +36,73 @@ from PyQt6.QtWidgets import QApplication, QLabel, QMainWindow, QTextEdit
 #     'This is surprising',
 #     'Something went wrong'
 # ]
-
-
-
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.label = QLabel("Click in this window")
-        self.setCentralWidget(self.label)
 
-    def mouseMoveEvent(self, e):
-        self.label.setText("mouseMoveEvent")
+        self.setWindowTitle("Widgets App")
 
-    def mousePressEvent(self, e):
-        self.label.setText("mousePressEvent")
+        layout = QVBoxLayout()
+        combo = QComboBox()
+        for i in range(5):
+            combo.addItem(f"Item {i}")
+        print(combo.currentData())
+        print(combo.currentText())
+        print(combo)
+        # for i in dir(combo):
+            # with open("comboBox_methods.txt", "a") as file:
+            #     file.write(f"{i}\n")
 
-    def mouseReleaseEvent(self, e):
-        self.label.setText("mouseReleaseEvent")
+        layout.addWidget(combo)
+        # widgets = [
+        #     QCheckBox,
+        #     QComboBox,
+        #     QDateEdit,
+        #     QDateTimeEdit,
+        #     QDial,
+        #     QDoubleSpinBox,
+        #     QFontComboBox,
+        #     QLCDNumber,
+        #     QLabel,
+        #     QLineEdit,
+        #     QProgressBar,
+        #     QPushButton,
+        #     QRadioButton,
+        #     QSlider,
+        #     QSpinBox,
+        #     QTimeEdit,
+        # ]
+        #
+        # for w in widgets:
+        #     print(w.__str__(w))
+        #     layout.addWidget(w())
 
-    def mouseDoubleClickEvent(self, e):
-        self.label.setText("mouseDoubleClickEvent")
+        widget = QWidget()
+        widget.setLayout(layout)
+
+        # Устанавливаем центральный виджет окна. Виджет будет расширяться по умолчанию,
+        # заполняя всё пространство окна.
+        self.setCentralWidget(widget)
+
+
+
+# class MainWindow(QMainWindow):
+#     def __init__(self):
+#         super().__init__()
+#         self.label = QLabel("Click in this window")
+#         self.setCentralWidget(self.label)
+#
+#     def mouseMoveEvent(self, e):
+#         self.label.setText("mouseMoveEvent")
+#
+#     def mousePressEvent(self, e):
+#         self.label.setText("mousePressEvent")
+#
+#     def mouseReleaseEvent(self, e):
+#         self.label.setText("mouseReleaseEvent")
+#
+#     def mouseDoubleClickEvent(self, e):
+#         self.label.setText("mouseDoubleClickEvent")
 
 
 app = QApplication(sys.argv)
