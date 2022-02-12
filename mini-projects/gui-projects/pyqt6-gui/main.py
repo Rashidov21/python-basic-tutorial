@@ -1,3 +1,29 @@
+
+# Dastur
+# 1 - malumot qabul qiladi
+# 2 - qayta ishlaydi
+# 3 - natijani qaytaradi
+
+# Intel(R) Core(TM) i3-8100 CPU @ 3.60GHz   3.60 GHz
+# RAM DDR4 - DDR5 >> 2gb , 4gb , 8bg 16...32 , 64gb
+# M2, SSD , HDD
+#  M2 ~~ 100mbs
+#  SSD ~~ 80mbs
+#  HDD ~~ 30 mbs
+
+# t.me/djangorobocode
+
+
+
+
+
+
+
+
+
+
+
+
 import sys
 
 
@@ -139,4 +165,7 @@ app.exec()
 #
 #         if window_title == 'Something went wrong':
 #             self.button.setDisabled(True)
+
+
+
 
