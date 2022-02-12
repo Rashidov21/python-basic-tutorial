@@ -1,2 +1,2 @@
-TOKEN = ''
+TOKEN = '5001741680:AAFMM4zy8IOl_gY6OfoE7BoD5qjzuoqJfMo'
 USER = 0
