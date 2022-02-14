@@ -1,6 +1,6 @@
 import logging
-from aiogram import Bot, Dispatcher,executor,types
-from markup import otherMenu, mainMenu, getContactBtn
+from aiogram import Bot, Dispatcher, executor, types
+from markup import getContactBtn
 from config import TOKEN
 
 BOT_TOKEN = TOKEN
@@ -10,6 +10,7 @@ logger.setLevel(logging.DEBUG)
 
 bot = Bot(token=BOT_TOKEN, parse_mode=types.ParseMode.HTML)
 dp = Dispatcher(bot)
+
 
 @dp.message_handler(commands='start')
 async def start_cmd_handler(message: types.Message):
@@ -26,7 +27,7 @@ print(getContactBtn)
 @dp.message_handler()
 async def all_msg_handler(message: types.Message):
 
-    await message.voice_chat_started
+    pass
     # with message, we send types.ReplyKeyboardRemove() to hide the keyboard
 
 if __name__ == '__main__':
