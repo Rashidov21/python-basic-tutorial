@@ -1,16 +1,20 @@
 # -*- coding: utf-8 -*-
-# import os
-# print(os.path)
-# file = open("test.txt", "r") # 1 param file path , 2 param bu rejim (r,a,b,w)
-# print(file.read())# file ni o'qish
-# file.close() # file ni yopish
-# print(os.path.abspath("test.txt")) # file ning absolute manzili
+import os
+
+# print(os.path) # python install directory
+# file = open("test.txt", "a")
+# 1 param file path , 2 param bu rejim (r,a,b,w)
+# print(dir(file))
+# file.write("\npython or ruby")
+# print(file.read())  # file ni o'qish
+# file.close()  # file ni yopish
+# print(os.path.abspath("tasks.py"))  # file ning absolute manzili
 
 # import os , sys
 # print(f"Fayl : {os.path.abspath(__file__)}")
 # print(f"Katalog : {os.getcwd()}")
 # print(f"Import uchun katalog : {sys.path[0]}")
-# print(f"TXT Faylga olib boruvchi path : {os.path.abspath('test.txt')}")
+# print(f"Faylga olib boruvchi path : {os.path.abspath(__file__)}")
 
 # open("fayl yolini", "rejim")
 # rejimlar:
@@ -37,24 +41,35 @@
 # file.close()
 
 # f = open("test.txt", "r")
-# cash = []
+# # print(f.readlines()) # list lines
+# s = 0
 # for i in f.readlines():
-#     try:
-#         s = i.split(":")[1]
-#         cash.append(s[:-2])
-#     except IndexError:
-#         print("Error")
-# f.close()
-# print(sum([int(x) for x in cash]))
+#     # John - 30
+#     s += int(i.split("-")[1])
+# print(s)
+
+# from math import pi as pi_soni
+# print(pi_soni)
 
 # with as : file ni as operatori orqali nomlab ochish va avtomatik yopish
 # with open(r"test.txt", "r") as file:
 #     print(file.read())
 
+# task 1
+# 1 , 100 >> 30 to nums.txt file write
+# from random import randint
+# for i in range(30):
+#     rn = randint(1,100)
+#     with open("test.txt", "a") as file:
+#         file.writelines(f"{rn}\n")
+
+
 # import random as r
 # print(r.randint(10,20))
 
 # from bs4 import BeautifulSoup as bs # qayta nomlash
+
+# pip install faker
 # from faker import Faker
 # fake = Faker()
 # # print(dir(fake))
@@ -66,11 +81,6 @@
 #         file.writelines(f"name : {n} - address : {a} \n")
 # with open("menifaylim.txt", "r") as f:
 #     print(f.read())
-
-
-
-
-
 
 
 # with open(r"test.txt", "w+") as names:
@@ -103,8 +113,8 @@
 #     staffs = [
 #         {"name":"Michael", "age":23, "salary":15000}
 #     ]
-    # str:name
-    # int:age
-    # int:salary
+# str:name
+# int:age
+# int:salary
 # dictga ushbu malumotlar users.txt faylidan olib yozilsin
-    # user.txt : Michael-23-150000
+# user.txt : Michael-23-150000

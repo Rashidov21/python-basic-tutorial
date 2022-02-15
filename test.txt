@@ -1,23 +1,30 @@
-strya:300
-Susan:123
-Thomas:89
-John:53
-Heather:12
-Michele:23
-Regina:233
-
-VS-code yoki Atom dan zerikdingizmi ?
-
-Bazida shaxsiy laptop yoki kompyuteringiz yoningizda bo'lmaydi lekin qo'l ostingizda
- kimnidur kompyuteri va brauzer bor u holda  shu kompyuterda kod yozishingnizga to'g'ri kelib qolsa
- unda yechim bor alohida kod muharrirlarini o'rnatib ovora bo'lish shart emas , yoki shunchaki zavqlanish maqsadida
- kod yozish jarayoningizni boyitish maqsadida ham ushbu maslahatimizdan foydalansangiz bo'ladi
-
-Javascript dasturlash tilida kod yozuvchilar uchun foydali bo'lgan ajoyib bir online IDE haqida yozmoqchimiz.
-https://playcode.io/new/ da siz Javascript + HTML + CSS kodlaringizni tekshirib borishingiz mumkin bo'ladi .
-
-Playcode Live Reload holatida ishlaydi va kodni yozishingiz bilan uni natijasini ko'rib ketasiz
-.
-
-
-
+64
+55
+84
+41
+12
+48
+5
+26
+93
+51
+41
+86
+27
+66
+59
+17
+34
+28
+99
+94
+12
+47
+99
+14
+47
+72
+79
+58
+45
+22
