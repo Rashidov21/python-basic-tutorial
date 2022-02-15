@@ -11,10 +11,12 @@ content_page = requests.get(url, headers=HEADER)
 obj = []
 
 
+
+
 def get_content(page):
     soup = BeautifulSoup(page.text, "html.parser")
     page_tag_content = soup.findAll("div", class_="b-list-quote2__item")
-    # quotes = content.findAll("div", class_="b-list-quote2__item ")
+    # quotes =  content.findAll("div", class_="b-list-quote2__item ")
     if len(page_tag_content) != 0:
         obj = list()
         def parsing_data():
