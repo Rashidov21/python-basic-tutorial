@@ -168,3 +168,16 @@
 #     print(c,':',b%60)
 # else:
 #     print(c,':',b%60)
+
+# task 1
+# css_property = "transform-translate-rotate-scale".split('-')
+# def toDomCode(property):
+#     result = f"{property[0]}"
+#     for i in range(len(property)):
+#         if i:
+#             result += property[i].title()
+#     return result
+#
+# print(toDomCode(css_property))
+# x = 10
+# print(type(x))

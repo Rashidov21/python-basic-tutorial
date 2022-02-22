@@ -1,26 +1,30 @@
 #-*- coding: utf-8 -*-
-# import sqlite3
+import sqlite3
 #
-# con = sqlite3.connect("person.db")
+
+
+# songs.db
+# con = sqlite3.connect("songs.db")
 # cur = con.cursor()
+
 # sql = """\
-#     CREATE TABLE person(
-#         person_id INTEGER PRIMARY KEY AUTOINCREMENT,
-#         name TEXT,
-#         age TEXT
+#     CREATE TABLE music(
+#         song_id INTEGER PRIMARY KEY AUTOINCREMENT,
+#         song_name TEXT,
+#         author TEXT
 #     );
 #     """
 # sql = """\
-#     INSERT INTO person(name,age)
-#     VALUES("Abdullo","15");
+#     INSERT INTO music(song_name,author)
+#     VALUES("Faded","Alan Walker");
 # """
 # try:
 #     cur.execute(sql)
-# except sqlite3.DatabaseError as err:
-#     print(err)
+# except sqlite3.DatabaseError as er:
+#     # raise sqlite3.DatabaseError()
+#     print(er)
 # else:
-#     # print("Person data is created.")
-#     print("Abdullo data is created.")
+#     print("Song is added.")
 #     con.commit() # malumotlarni tasdiqlab saqlash
 # cur.close()
 # con.close()
@@ -71,7 +75,7 @@
 # SELECT * FROM <table name>
 
 # Tanlab ochirish
-# DELETE FROM <table name> WHERE id=2
+# DELETE FROM users WHERE name="Michael"
 
 # Jadvalni ochirish
 # DROP TABLE <table name>
@@ -126,3 +130,28 @@
 # cur.close()
 # con.close()
 # input()
+
+
+# from faker import Faker
+#
+# fake = Faker()
+# con = sqlite3.connect("users.db")
+# cur = con.cursor()
+#
+# for i in range(10):
+#     name = fake.name().split(" ")[0]
+#     surname = fake.name().split(" ")[1]
+#
+#     sql = f"""\
+#         INSERT INTO users(name,surname)
+#         VALUES('{name}','{surname}')
+#     """
+#     try:
+#         cur.execute(sql)
+#     except sqlite3.DatabaseError as e:
+#         print(e)
+#     else:
+#         print("CREATE TABLE users")
+#         con.commit()
+# cur.close()
+# con.close()

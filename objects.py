@@ -6,13 +6,22 @@
 # agar qanday , qanaqa savollariga javob bersa bu - sifat
 # nima qiladi savoliga javob bersa bu - hatti harakat
 
-# class MyClass:
+# class MainClass:
 #     """this is first Class in Python"""
+#
+#     x = "First Class"
+#
 #     # object ni atribut va metodlari
-#     pass
+#     def mainMethod(self):
+#         print("Hello world, I am", self.x)
+# m = MainClass()
+# m.mainMethod()
 
+# print(MainClass.__doc__)
 #
 # class Car:
+#     _myCar = "No name"
+#     __count = 0
 #     def __init__(self,name,model,price):
 #         self.name = name
 #         self.model = model
@@ -20,11 +29,16 @@
 #
 #     def signal(self):
 #         print(self.name , "signal cholyapti...")
-#
-# car1 = Car("Damas", "Shevrolet", 14000)
+# #
+# car = Car("ds", "dsds", 45)
+# car.__count = 11
+# print(car.__count)
+# car1 = Car("Lexus", "Shevrolet", 1500)
+# car1.signal()
+
 # car2 = Car("Moseratti", "Moseratti R3", 56000)
 #
-# print(car1.name)
+# print(dir(car1))
 # print(car1.model)
 # print(car1.price)
 # print(car2.name)
