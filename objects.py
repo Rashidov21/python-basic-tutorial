@@ -64,15 +64,38 @@
 # getattr()
 # setattr()
 # delattr()
+# class Horse():
+#     isHorse = True
+#
+# class Donkey():
+#     isDonkey = True
+#
+# class Mule(Horse, Donkey):
+#     pass
+# mule = Mule()
+# mule.isHorse # True
+# mule.isDonkey # True
+# class MyClass:
+#
+#     def __init__(self):
+#         self.x = 10
+#
+#     @classmethod
+#     def main_class_method(cls,x):
+#         print(cls, x)
+#
+#     @staticmethod
+#     def main_method(a):
+#         print(a * 2)
+#
+#     def get_x_value(self):
+#         return self.x
 
-class MyClass:
-    def __init__(self):
-        self.x = 10
-
-    def get_x_value(self):
-        return self.x
-
-c = MyClass()
+# MyClass.main_method(10) # 20
+# MyClass.main_class_method(5)
+# c = MyClass()
+# c.main_class_method(10)
+# print(c.get_x_value())
 #
 # print(getattr(c,"x"))
 # print(getattr(c,"get_x_value"))
@@ -178,3 +201,30 @@ c = MyClass()
 # print(c.getVar())
 # c.setVar(20)
 # print(c.getVar())
+
+
+class SchoolMember:
+# '''Представляет любого человека в школе.'''
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        print('(Создан SchoolMember: {0})'.format(self.name))
+
+    def tell(self):
+        print(f"Ismi = {self.name} . Yoshi = {self.age}")
+# m = SchoolMember("John", 35)
+# member.tell()
+
+class Teacher(SchoolMember):
+    def __init__(self, name, age, salary):
+        super().__init__(name, age)
+        # SchoolMember.__init__(self, name, age)
+        self.salary = salary
+        print('(Создан Teacher: {0})'.format(self.name))
+
+    # def tell(self):
+    #     SchoolMember.tell(self)
+    #     print('Зарплата: "{0:d}"'.format(self.salary))
+t = Teacher('Mrs. Shrividya', 40, 30000)
+t.tell()
+
