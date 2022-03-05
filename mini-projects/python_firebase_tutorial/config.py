@@ -1,18 +1,18 @@
 import pyrebase
 
 firebase_config = {
-    'apiKey': "AIzaSyDpoOWQIQGF0ZYJ9QaYj-cG19N3MW2vvhg",
-    'authDomain': "pybase-9087d.firebaseapp.com",
-    'projectId': "pybase-9087d",
-    'databaseURL':'https://pybase-9087d-default-rtdb.firebaseio.com/',
-    'storageBucket': "pybase-9087d.appspot.com",
-    'messagingSenderId': "1064239651081",
-    'appId': "1:1064239651081:web:f98e55c2174e0b0c5d9bd8",
-    'measurementId': "G-1E8NF8PYHZ"
+    'apiKey': "AIzaSyBfePZU1LMCmrwxFqLYXiQF_n132SdZhC4",
+    'authDomain': "fruitsbase.firebaseapp.com",
+    'projectId': "fruitsbase",
+    'storageBucket': "fruitsbase.appspot.com",
+    'messagingSenderId': "445383361070",
+    'appId': "1:445383361070:web:4210d09aabe8622619d5bf",
+    'measurementId': "G-QCV1XJRVHR",
+    # Add this line
+    'databaseURL':'https://fruitsbase-default-rtdb.firebaseio.com/'
 }
-
 firebase = pyrebase.initialize_app(firebase_config)
-
-# db = firebase.db()
-auth = firebase.auth()
+# auth = firebase.auth()
+db = firebase.database()
+storage = firebase.storage()
 # storage = firebase.storage()
