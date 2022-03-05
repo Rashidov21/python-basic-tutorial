@@ -3,14 +3,7 @@
 // import { getDatabase } from "https://www.gstatic.com/firebasejs/9.6.8/firebase-database.min.js";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBfePZU1LMCmrwxFqLYXiQF_n132SdZhC4",
-    authDomain: "fruitsbase.firebaseapp.com",
-    databaseURL: "https://fruitsbase-default-rtdb.firebaseio.com",
-    projectId: "fruitsbase",
-    storageBucket: "fruitsbase.appspot.com",
-    messagingSenderId: "445383361070",
-    appId: "1:445383361070:web:4210d09aabe8622619d5bf",
-    measurementId: "G-QCV1XJRVHR"
+//    YOUR API DATA
 };
 
 const app = firebase.initializeApp(firebaseConfig);
