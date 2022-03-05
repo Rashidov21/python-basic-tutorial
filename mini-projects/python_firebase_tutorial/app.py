@@ -1,7 +1,7 @@
-from config import db, storage
+from config import db
 
 # db.child("fruit").set({"name":"kiwi"})
-print()
+
 
 def write_data(table_name, values):
     try:
