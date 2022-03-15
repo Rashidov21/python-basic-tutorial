@@ -155,3 +155,38 @@ import sqlite3
 #         con.commit()
 # cur.close()
 # con.close()
+
+
+con = sqlite3.connect("users.db",check_same_thread=True)
+cur = con.cursor()
+
+# create_table = """
+#     INSERT INTO stafs(name,position)
+#     VALUES('John','teacher')
+# """
+sql = """
+         SELECT 'stafs'.'position' FROM 'stafs' UNION
+         SELECT 'users'.'name' FROM 'users' LIMIT 2
+          
+      """
+try:
+    for i in cur.execute(sql).fetchall():
+        print(i)
+except Exception as e:
+    print(e)
+else:
+    con.commit()
+    print("Successfully")
+
+# sql = "SELECT * FROM  users"
+# try: 
+#     data = cur.execute(sql).fetchall()
+#     for i in range(len(data)):
+#         print(data[i])
+    
+# except sqlite3.DatabaseError as e:
+#     print(e)
+# else:
+#     print("Successfully")
+cur.close()
+con.close()

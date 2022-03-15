@@ -33,10 +33,10 @@
 # linux bosa Ubuntu , macOs bosa Apple sozlarini print qiling
 
 n = 10
-# if "t" in n:
-#     print("Ha")
-# else:
-#     print("YO")
+if "t" in n:
+    print("Ha")
+else:
+    print("YO")
 
 # print("XA" if len(n) > 5 else "YOQ")
 
