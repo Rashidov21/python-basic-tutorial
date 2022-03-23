@@ -69,7 +69,7 @@
 # print(type(n))
 
 # x = input("X = ")
-# print(bool(x))
+# print(type(bool(True)))
 # n = 10
 # print(float(n))
 
