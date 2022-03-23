@@ -201,3 +201,12 @@
 #     s = tuple(s)
 #     return s
 # print(loremToTupple(text))
+
+# def s(x): #1
+#     return x*x #2
+# for n in [1, 2, 10]: #3
+#     print(s(n))
+n = 3
+for x in [2, 5, 8]:
+    n = n + x
+    print(n)
