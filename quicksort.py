@@ -1,3 +1,13 @@
+# def countdown(i):
+#     if i <= 0:
+#         return None
+#     print(i)
+#     return countdown(i - 1)
+#
+#
+# countdown(10)
+
+
 def quicksort(arr):
     if len(arr) < 2:
         return arr
