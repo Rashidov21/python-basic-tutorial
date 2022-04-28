@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 url = "https://www.pexels.com/ru-ru/search/python/"
 headers = {
+    "Accept-Language":"ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,la;q=0.6,pt;q=0.5,uz;q=0.4",
     "User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36"
 }
 page = requests.get(url, headers=headers)
