@@ -3,8 +3,8 @@ from bs4 import BeautifulSoup
 url = "https://www.pexels.com/ru-ru/search/python/"
 page = requests.get(url)
 soup = BeautifulSoup(page.text, "html.parser")
-
-images = soup.find_all("a",class_='js-photo-link')
+# print(soup)
+images = soup.findAll("a",class_='js-photo-link')
 for x in images:
     print(x)
 
