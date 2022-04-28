@@ -1,15 +1,12 @@
 import requests
+from bs4 import BeautifulSoup
+url = "https://www.pexels.com/ru-ru/search/python/"
+page = requests.get(url)
+soup = BeautifulSoup(page.text, "html.parser")
 
-url = "https://forecast9.p.rapidapi.com/"
-
-headers = {
-    'x-rapidapi-host': "forecast9.p.rapidapi.com",
-    'x-rapidapi-key': "0202709d4emshbe87778ed9b4962p1f76cdjsn4a200e532763"
-    }
-
-response = requests.request("GET", url, headers=headers)
-
-print(response.text)
+images = soup.find_all("a",class_='js-photo-link')
+for x in images:
+    print(x)
 
 #int , str , float, bool
 # < , > , == , != , in ,not in, is,is not, and ,or ,
