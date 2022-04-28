@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 url = "https://www.pexels.com/ru-ru/search/python/"
 page = requests.get(url)
 soup = BeautifulSoup(page.text, "html.parser")
-print(soup.findAll("img"))
+print(soup.findAll("article", class_="photo-item"))
 images = "sss"
 for x in images:
     print(x)
