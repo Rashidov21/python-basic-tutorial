@@ -27,7 +27,7 @@
 #1. inputda t harfi bormi yoqmi tekshiring , agar bosa bor deng bomasa
 # yoq deng
 
-#2. inputda son qabul qiling juft yoki toq ekanini aniqlang
+#2. son qabul qiling juft yoki toq ekanini aniqlang
 
 #3. OS nomlarini qabul qiling, agar windows bosa Microsoft
 # linux bosa Ubuntu , macOs bosa Apple sozlarini print qiling
