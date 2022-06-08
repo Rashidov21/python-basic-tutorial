@@ -79,8 +79,26 @@ bool , None , int , float, str, complex , bytes, bytearray, list , tuple, dict ,
 # print(2 ** 2)  # 4
 # print(7 % 2)  # 1
 # print("salom" / 2) # Error
+# n = 10
+# n += 10
+
+# print(n)  # 20
+# n -= 5
+# print(n)  # 15
+# n //= 3
+# print(n)  # 5
+# n *= 2
+# print(n)  # 10
+# n %= 3
+# print(n)  # 1
+# n = n + 1
+# n **= 2
+# print(n)  # 4
+# x = (5 + 2) * 3
+# print(x)  # 21
+
 # str uchun operatorlar
-print("Salom " + " Dunyo")
-print("python" * 2)  # pythonpython
-print("s" in "salom")  # True
-print("s" not in "Hello")  # True
+# print("Salom " + " Dunyo")
+# print("python" * 2)  # pythonpython
+# print("s" in "salom")  # True
+# print("s" not in "Hello")  # True
