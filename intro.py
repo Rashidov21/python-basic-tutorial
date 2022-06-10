@@ -18,11 +18,11 @@ import keyword  # zaxiranlagan operatorlar
 """
 bool , None , int , float, str, complex , bytes, bytearray, list , tuple, dict , set , frozenset, function, module, type
 """
-yes = True  # 1
-no = False  # 0
-print(type(yes))  # bool | <class 'bool'>
-print(yes + no)  # 1
-print(type(None))  # <class 'NoneType'>
+# yes = True  # 1
+# no = False  # 0
+# print(type(yes))  # bool | <class 'bool'>
+# print(yes + no)  # 1
+# print(type(None))  # <class 'NoneType'>
 
 # int | butun sonlar = integer
 # n = 10
@@ -40,7 +40,7 @@ print(type(None))  # <class 'NoneType'>
 # s3 = f"""python  - {name}"""  # aktual usul
 # s4 = f"Value = {10+10}"
 # s5 = r"\tPython\n\\is\n\"better\"\a"
-
+# print(s5)
 # print(s, s2, s3)
 # print(type(s))
 # print(s)
@@ -98,7 +98,7 @@ print(type(None))  # <class 'NoneType'>
 # print(x)  # 21
 
 # str uchun operatorlar
-# print("Salom " + " Dunyo")
+# print("Salom " + " Dunyo") # concat
 # print("python" * 2)  # pythonpython
 # print("s" in "salom")  # True
 # print("s" not in "Hello")  # True
