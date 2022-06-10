@@ -18,11 +18,11 @@ import keyword  # zaxiranlagan operatorlar
 """
 bool , None , int , float, str, complex , bytes, bytearray, list , tuple, dict , set , frozenset, function, module, type
 """
-# yes = True  # 1
-# no = False  # 0
-# print(type(yes))  # bool | <class 'bool'>
-# print(yes + no)  # 1
-# print(type(None))  # <class 'NoneType'>
+yes = True  # 1
+no = False  # 0
+print(type(yes))  # bool | <class 'bool'>
+print(yes + no)  # 1
+print(type(None))  # <class 'NoneType'>
 
 # int | butun sonlar = integer
 # n = 10
