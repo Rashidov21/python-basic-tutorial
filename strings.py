@@ -1,4 +1,5 @@
 from transliterate import translit, get_available_language_codes
+import random
 # STRINGS
 # s = "python"
 # n_str = str(123456)
@@ -117,3 +118,16 @@ from transliterate import translit, get_available_language_codes
 # sonlarni yigindisini hisoblang
 # while orqali toxtovsiz son kiritiladi agar "stop" deb kiritlsa sikl toxtedi va sonlar
 # yigindisi ekranga chiqadi
+
+# task 2
+# input : userdan str qabul qilinadi | masalan "python"
+# output: "pyThON" | random belgilar katta harfda random belgilar kichik
+# user = input()
+# result = ""
+# for i in range(len(user)):
+#     r = random.randint(0, len(user) // 2)
+#     if r % 2 == 0:
+#         result += user[i].upper()
+#     else:
+#         result += user[i]
+# print(result)
