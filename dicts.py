@@ -79,3 +79,11 @@
 # for user in users:
 #     print(user["name"])
 #     print(user["age"])
+
+# task 1
+# n = [1, 2, 3, 4, 5]
+# u = ("a", "b", "c", "d", "e")
+# d = {
+#     "a":1,
+#     "b":2
+# }
