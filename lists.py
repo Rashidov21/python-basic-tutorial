@@ -1,5 +1,6 @@
 import random
 # ARRAYS
+# list - tartiblangan elementlar ketma-ketligi
 # list
 # arr = list()
 # arr = [1, "str", True, None, range(5)]
