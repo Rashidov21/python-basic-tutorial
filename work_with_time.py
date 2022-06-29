@@ -103,3 +103,22 @@ locale.setlocale(locale.LC_ALL, "Uz_uz")  # locale ni (dastur tilini)
 #  arr = [[1,5,6],[5,8,1], [9,7,9],[1,2,8]]
 #  newArray = []
 #  rezultat >>> newArray = [25,14,12,11] ni xosil qiling
+
+
+# arr = [12, 5, 6, 9, 8, 2, 6, 6, 3, 4, 58, 6, 7]
+# _from = arr.index(min(arr))
+# _to = arr.index(max(arr))
+# print(arr[_from:_to])  # [2, 6, 6, 3, 4]
+
+# arr_2 = [2, 3, 5, 96, 8, 1]
+
+# max_elem = max(arr_2)
+# min_elem = min(arr_2)
+# arr_2[arr_2.index(min_elem)] = max_elem
+# arr_2[arr_2.index(max_elem)] = min_elem
+
+# print(arr_2)
+
+
+# print([x * 3 for x in range(0, len(list(range(1, 16))), 3)])
+# print(len([x * 3 for x in range(0, len(list(range(1, 16))), 3)]))
