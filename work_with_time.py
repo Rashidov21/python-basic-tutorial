@@ -1,6 +1,8 @@
 # Work with date and time
+from timeit import Timer
 import time  # vaqt bilan ishlash uchun (vaqt obyekti)
-from datetime import datetime  # sanan va vaqt bilan ishlahs uchun
+# from datetime import datetime  # sanan va vaqt bilan ishlahs uchun
+import datetime
 import calendar  # kalendar moduli
 import locale
 locale.setlocale(locale.LC_ALL, "Uz_uz")  # locale ni (dastur tilini)
@@ -122,3 +124,89 @@ locale.setlocale(locale.LC_ALL, "Uz_uz")  # locale ni (dastur tilini)
 
 # print([x * 3 for x in range(0, len(list(range(1, 16))), 3)])
 # print(len([x * 3 for x in range(0, len(list(range(1, 16))), 3)]))
+#######################################################################
+# import datetime
+# t1 = datetime.timedelta(
+#     days=5, hours=10, minutes=30)  # vaqt oraligi obyekti
+# t2 = datetime.timedelta(days=3, hours=5, minutes=20)
+# print(t1 - t2)  # 2 days, 5:10:00
+# days - kunlar butun sonlarda
+# minutues - minutlar butun sonlarda
+# milliseconds - millisekundlar butun sonlarda
+# weeks - haftalar butun sonlarda
+
+# y = int(input("Year "))
+# m = int(input("Month "))
+# d = int(input("Day "))
+# brthday = datetime.date(y, m, d)
+# td = datetime.date.today()
+# print(td.year)  # 2022
+# print(td.month)  # 07
+# print(td.day)  # 01
+# print(td)  # 2022-07-01
+# print(td - brthday)  # 7189 days, 0:00:00
+# d = datetime.date(2022, 7, 1)  # sana  obyekti
+# print(d)  # 2022-07-01
+# print(type(d))  # <class 'datetime.date'>
+
+
+# dt = datetime.datetime(2002, 10, 25, hour=11, minute=23, second=30)
+# print(dt)  # 2002-10-25 11:23:30
+
+
+# print(dt.date())  # 2002-10-25
+# print(dt.time())  # 11:23:30
+
+# y = int(input("Year "))
+# m = int(input("Month "))
+# d = int(input("Day "))
+# h = int(input("Hour "))
+# minute = int(input("Minute "))
+
+# bth = datetime.datetime(y, m, d, hour=h, minute=round(minute))
+# td = datetime.datetime.now()
+# print(td - bth)
+# import calendar
+# c = calendar.LocaleTextCalendar(0, "UZ_uz")
+# print(c.formatyear(2022))  # <class 'str'>
+# with open("calendar.txt", "w") as file:
+#     file.write(c.formatyear(2022))
+
+# html_calendar = calendar.LocaleHTMLCalendar(0, "UZ_uz")  # Russuin_Russia.1251
+# with open("calendar.html", "w") as file:
+#     file.write(html_calendar.formatyear(datetime.datetime.now().year))
+
+
+# ['dushanba', 'seshanba', 'chorshanba', 'payshanba', 'juma', 'shanba', 'yakshanba']
+# print([i for i in calendar.day_name])
+# print([i for i in calendar.day_abbr])
+# # ['', 'Yan', 'Fev', 'Mar', 'Apr', 'May', 'Iyn',
+# # 'Iyl', 'Avg', 'Sen', 'Okt', 'Noy', 'Dek']
+# print([x for x in calendar.month_abbr])
+# # ['', 'Yanvar', 'Fevral', 'Mart', 'Aprel', 'May', 'Iyun', 'Iyul', 'Avgust', 'Sentabr', 'Oktabr', 'Noyabr', 'Dekabr']
+# print([x for x in calendar.month_name])
+
+
+# Timer >> stmt - bu tezligini o'lchanishi keral bo'lgan kod
+# Timer >> setup - bu tezligini o'lchashdan oldin ishga tushirilishi bo'lgan kod
+# Timer >> timer - bu tezligini o'lchanishi keral bo'lgan kod
+# code1 = """\
+# i , j = 1,0
+# while i < 10001:
+#     j += 1
+#     i += 1
+# """
+# t1 = Timer(stmt=code1)
+# print("while : ", t1.timeit(number=10000))
+# code2 = """\
+# j = 0
+# for i in range(1,10001):
+#     j += 1
+# """
+# t2 = Timer(stmt=code2)
+# print("for: ", t2.timeit(number=10000))
+# code3 = """\
+# j = sum(range(1,10001))
+# """
+# t3 = Timer(stmt=code3)
+# print("sum : ", t3.timeit(number=10000))
