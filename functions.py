@@ -141,4 +141,5 @@
 # task 1
 # s = """The function is called with all the items in the list and a new list is returned which contains items returned by that function for each item."""
 # get_vowels degan function yozing
+
 # s dagi unlilarni alohida massiv qiling
