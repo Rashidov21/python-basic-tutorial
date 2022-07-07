@@ -143,3 +143,8 @@
 # get_vowels degan function yozing
 
 # s dagi unlilarni alohida massiv qiling
+
+
+
+
+ 
