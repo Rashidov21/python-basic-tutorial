@@ -11,13 +11,13 @@ import keyword  # zaxiranlagan operatorlar
 # n1 = 10
 # User = "oblivion"  # mumkin emas
 # USER = "gandi12"  # constanta
-# USER = "pablo"
+USER = "pablo"
 # print(USER)  # PABLO
 
 # DATA TYPES
-"""
-bool , None , int , float, str, complex , bytes, bytearray, list , tuple, dict , set , frozenset, function, module, type
-"""
+# """
+# bool , None , int , float, str, complex , bytes, bytearray, list , tuple, dict , set , frozenset, function, module, type
+# """
 # yes = True  # 1
 # no = False  # 0
 # print(type(yes))  # bool | <class 'bool'>

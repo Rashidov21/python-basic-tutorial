@@ -144,7 +144,25 @@
 
 # s dagi unlilarni alohida massiv qiling
 
+#########################################################
+# global o'zgaruvchilar va local o'zgaruvchilar
+
+# x = 10  # global var
+
+# # global x
 
 
+# def main():
+#     x = 20  # local var
 
- 
+#     def fun():
+#         print(x)
+#     fun()  # 20
+#     return x
+
+
+# x = 30
+
+# print(x)  # 20
+# main()  # 20
+# print(x is main())  # False
