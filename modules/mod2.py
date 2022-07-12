@@ -1,10 +1,10 @@
-# import json
-# from bs4 import BeautifulSoup
-# from mod1 import activate
-# import intro
-# print(intro.USER)  # ModuleNotFoundError: No module named 'intro'
-# import mod1  # bu modulni yoki to'liq yuklash
-# print(mod1.activate) # True
+import mod1  # bu modulni yoki to'liq yuklash
+import json
+from bs4 import BeautifulSoup
+from mod1 import activate
+import intro
+print(intro.USER)  # ModuleNotFoundError: No module named 'intro'
+print(mod1.activate)  # True
 
 # from mod1 import *  # bu modulni ichidagi hamma narsani yuklash
 # print(plus(10, 20))
