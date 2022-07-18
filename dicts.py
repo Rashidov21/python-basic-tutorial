@@ -87,3 +87,75 @@
 #     "a":1,
 #     "b":2
 # }
+
+
+# d = {}
+# d = dict()
+# key + value
+# name = "John"
+# surname = "Doe"
+# d = {
+#     'n': name,
+#     's': surname
+# }
+
+# print(d["n"])
+# print(d.get("s"))
+
+# for i in d.items():
+#     print(i)
+
+# for x in d.keys():
+#     print(x)
+
+# for j in d.values():
+#     print(j)
+# import random
+# key_list = "abcdef"
+# value_list = random.sample(range(100), 6)
+# my_dict = {k: v for k, v in zip(key_list, value_list)}
+# print(my_dict)
+# res = {}
+# values = sorted(my_dict.items(), key=lambda v: v[1])
+# for i in values:
+#     res.update({f"{i[0]}": i[1]})
+# print([x for x in res.values()])
+
+# print([i for i in map(lambda x: x+2, res.values())])
+
+
+# def main(x):
+#     return x + 2
+
+
+# print([i for i in map(main, res.values())])
+
+
+# def filter_main(x):
+#     if x >= 30:
+#         return x
+
+
+# print([i for i in filter(filter_main, res.values())])
+# my_dict.update({"g": 7})  # dictga elem qoshish uchun kerak
+
+# other_dict = {}
+
+# for i in my_dict.items():
+#     other_dict.update({k: v for k, v in zip(
+#         my_dict.keys(), my_dict.values()) if v <= 50})
+
+# print(other_dict)
+
+# Mastercard, Paul Cooper, 2700140577577268, 11/23, CVV: 167
+# Mastercard, Joseph Ho, 2511543921731250, 07/30, CVV: 924
+# Mastercard, Kimberly Jackson, 5203932397901099, 09/30, CVV: 090
+# Mastercard, Melissa Wilson, 2392633210200184, 12/22, CVV: 119
+# Mastercard, Maria Holmes, 2720362817102568, 12/22, CVV: 377
+# Mastercard, John Campbell, 2245927560784089, 12/23, CVV: 453
+# Mastercard, Rebecca Anderson, 5503991835969990, 04/25, CVV: 597
+# Mastercard, Aaron Barron, 5118831594337780, 08/24, CVV: 052
+# Mastercard, Kristin Jimenez, 2445566370760125, 01/26, CVV: 174
+# Mastercard, Danielle Eaton, 5321732292333381, 12/30, CVV: 877
+
+# ushbu ro'yhatdan 10-oydan kichik bo'lgan kartalarni alohida dict ga yozings
