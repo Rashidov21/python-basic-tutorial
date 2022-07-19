@@ -4,6 +4,18 @@
 #  agar son(99, 399) orasida bosa kubi chiqadi
 #  qolgan sonlarni o'zi console ga chiqdi
 
+
+
+
+
+
+
+
+
+
+
+
+
 # // task 2
 # letters = "abcdefghijklmnopqrstuvwxyz"
 # d = {
@@ -38,12 +50,12 @@
 # // sonlardan  eng katta qiymatni xosil qiling
 # // 1,7,3 >> 731
 
-# task 5 
+# task 5
 # A = 20
 # B = 12
 # C = 36
 # T = 45
-# F = 23 
+# F = 23
 # matni yozilgan nums.txt fayl hosil qiling
 # get_total nomli funksiya orqali txt fayldagi barcha sonlarni topib
 # yig'indisini qaytaring
