@@ -4,8 +4,11 @@
 #  agar son(99, 399) orasida bosa kubi chiqadi
 #  qolgan sonlarni o'zi console ga chiqdi
 
-
-
+# task 2
+# n ta elementdan iborat a va b sonlar diapazonidan tashkil topgan massiv 
+# hosil qiluvchi funksiya yozing
+# kirish : masalan main(10, 3,90) 
+# chiqish : [5,4,6,8,14,56,68,61,52,66]
 
 
 
