@@ -61,3 +61,14 @@ print(main)
 # matni yozilgan nums.txt fayl hosil qiling
 # get_total nomli funksiya orqali txt fayldagi barcha sonlarni topib
 # yig'indisini qaytaring
+#  task 5
+# Viloyatda 10 ta tuman bor . Har bir tumanda necha gektar yerr maydoni borligi va har bir gektardan necha sentner bugdoy olinishi aniq , siz barcha tumanlar boyicha
+# necha sentnerdan buydoy olinishini va viloyatda umumiy galla hajmini chiaqaradigan
+# dastur tuzing
+# 1 gektardan - 7 sentner
+# Kirish tuman nomi va yer maydoning hajmi
+# Chiqishda tumanlarda olingan bugdoy hajmi va viloyat boyicha hajmi
+
+
+# task 6
+# 10 ta 2 xonalikdan katta butun son berilgan ulardan faqat 0 bilan tugaganlarini summasini hisoblang
