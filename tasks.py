@@ -11,11 +11,11 @@
 # chiqish : [5,4,6,8,14,56,68,61,52,66]
 
 
-def main(x):
-    return x * 2
+# def main(x):
+#     return x * 2
 
 
-print(main)
+# print(main)d
 
 
 # // task 2
@@ -72,3 +72,31 @@ print(main)
 
 # task 6
 # 10 ta 2 xonalikdan katta butun son berilgan ulardan faqat 0 bilan tugaganlarini summasini hisoblang
+
+# task 7
+# Foydalanuvchi kiritgan so’z palindrom yoki palindrom emasligini tekshiruvchi kod yozing (masalan “alla” so’zi palindrom chunki u onga hap chapga ham bir xil xarflardan tashkil topgan)
+
+# task 6
+# Siz foydalanuvchidan vergul bilan ajratilgan raqamlar ketma-ketligini qabul qilasiz. Ushbu raqamlarning ro'yxati (list)va kortejini (tuple)tuzing.
+
+# task 7
+# Siz berilgan  ketma-ketlikdagi barcha raqamlarning noyobligini tekshirishingiz kerak. Buning uchun funksiya yozing ; Funksiya sonlar ketma ketligini qabul qiladi
+# input str: 1,2,3,3,4,
+# output: 1234
+
+# task 8
+# Kun, oy va yil - uchta argumentni qabul qiladigan funktsiya yozing. Agar bizning taqvimimizda bunday sana bo'lsa, True, aks holda False qaytarsin .
+# input : 23.56.1975
+# output : false
+
+#  task 9
+# AMD 2011 protsessori 2 ta ilova bilan max=1300ghz tezlikda ishlaydi.
+# MS Word = 630ghz, MS Excel = 670ghz.
+# Intel Core 2014 protsessori max=2000ghz da ishlaydi. Foydalanuvchi 6 ta ilovani ishlatmoqchi bo’lsa Intel Core uchun yuklanishni nazorat qiladigan dastur tuzing.Agar protsessorga yuklanish 1800ghz dan oshsa eng kam ghz talab qiladigan dastur avtomatik tarzda yopilsin o’rniga tanlangan dastur ishga tushirilsin.
+# Foydalanuvchi ishlatmoqchi bo’lgan dasturlar:
+# Adobe XD = 600ghz
+# Paint 3D = 400ghz
+# MS Word = 700ghz
+# Submlime Text = 300ghz
+# Chrome = 800ghz
+# Figma = 400ghz
