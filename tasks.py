@@ -100,3 +100,15 @@
 # Submlime Text = 300ghz
 # Chrome = 800ghz
 # Figma = 400ghz
+
+# task 10
+# [22/Jul/2022 17:04:53] "GET / HTTP/1.1" 200 9685
+# [22/Jul/2022 17:04:56] "GET /cart/add/5 HTTP/1.1" 302 0
+# [22/Jul/2022 17:04:56] "GET /cart/ HTTP/1.1" 200 6397
+# [22/Jul/2022 17:05:02] "GET / HTTP/1.1" 200 9685
+# [22/Jul/2022 17:05:03] "GET /cart/ HTTP/1.1" 200 6397
+# server log faylidan method nomi , url , status kodni ajratib alohida faylga yozing
+# task 11
+# Har bir uyda yashovchi odamlar soni aniq.
+# Uylarni raqamlash ketma-ket amalga oshiriladi. toq raqami bo'lgan uylar
+# ko'chaning bir tomonida joylashgan, juft raqamlar bilan boshqa tomonida. Ko'chaning qaysi tomonida ko'proq odam bor ?
