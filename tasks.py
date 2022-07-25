@@ -61,6 +61,7 @@
 # matni yozilgan nums.txt fayl hosil qiling
 # get_total nomli funksiya orqali txt fayldagi barcha sonlarni topib
 # yig'indisini qaytaring
+
 #  task 5
 # Viloyatda 10 ta tuman bor . Har bir tumanda necha gektar yerr maydoni borligi va har bir gektardan necha sentner bugdoy olinishi aniq , siz barcha tumanlar boyicha
 # necha sentnerdan buydoy olinishini va viloyatda umumiy galla hajmini chiaqaradigan
@@ -108,6 +109,9 @@
 # [22/Jul/2022 17:05:02] "GET / HTTP/1.1" 200 9685
 # [22/Jul/2022 17:05:03] "GET /cart/ HTTP/1.1" 200 6397
 # server log faylidan method nomi , url , status kodni ajratib alohida faylga yozing
+
+
+
 # task 11
 # Har bir uyda yashovchi odamlar soni aniq.
 # Uylarni raqamlash ketma-ket amalga oshiriladi. toq raqami bo'lgan uylar
