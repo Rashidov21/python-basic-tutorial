@@ -1,29 +1,25 @@
-from aiogram import Bot, Dispatcher, types, executor
 import keyboards as kb
-API_TOKEN = "5001741680:AAE4IAJoxFtr15EpKIEOckvFq5z7xCNy_DI"
+import os
+from aiogram import Bot, Dispatcher, types, executor
+from dotenv import load_dotenv
 
-ID = 668618297
-
+load_dotenv()
+API_TOKEN = os.getenv("API_TOKEN")
+ID = os.getenv("ID")
+print(API_TOKEN, ID)
 # Initialize bot and dispatcher
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot)
 
 
-@dp.message_handler(commands=['start', 'help'])
+@dp.message_handler(commands=['start'])
 async def send_welcome(message: types.Message):
-    """
-    This handler will be called when user sends `/start` or `/help` command
-    """
-    await message.reply("Hi!\nI'm EchoBot!\nPowered by aiogram.")
+    await message.reply("Started!")
 
 
 @dp.message_handler()
 async def echo(message: types.Message):
-    bot = Bot.get_current()
-    user = types.User.get_current()
-    print(dir(bot))
-    print(bot, user)
-    bot.send_game(message.chat.id, "game_short_name")
+
     await message.answer(message.text, reply_markup=kb.greet_kb1)
 
 
