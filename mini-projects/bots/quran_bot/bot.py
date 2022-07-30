@@ -21,9 +21,10 @@ async def send_welcome(message: types.Message):
 async def echo(message: types.Message):
     bot = Bot.get_current()
     user = types.User.get_current()
+    print(dir(bot))
     print(bot, user)
-
-    await message.answer(message.text, reply_markup=kb.greet_kb)
+    bot.send_game(message.chat.id, "game_short_name")
+    await message.answer(message.text, reply_markup=kb.greet_kb1)
 
 
 if __name__ == '__main__':
