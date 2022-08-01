@@ -77,7 +77,7 @@ async def contacts(msg: types.Message):
 
     # @dp.message_handler()
     # async def echo(message: types.Message):
-
+    #     # u_id = message.chat.id
     #     if f"({message.text})" in answer:
     #         await message.answer("To'g'ri", reply_markup=kb)
     #     else:
