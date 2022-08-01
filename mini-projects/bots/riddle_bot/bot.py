@@ -4,7 +4,7 @@ import sqlite3
 
 from aiogram import Bot, Dispatcher, executor, types
 from settings.config import TOKEN, group_id
-from keyboard import markup_request
+from keyboard import markup_request, inline_kb
 
 from settings.db import connect_db
 # Configure logging
@@ -18,12 +18,22 @@ async def send_welcome(message: types.Message):
     await message.reply("Salom men konkurs botman. Menga telefon raqamingizni jo'nating.", reply_markup=markup_request)
 
 
-@dp.message_handler(content_types=types.ContentType.LOCATION)
-async def contacts(msg: types.Message):
-    print(msg)
-    print(dir(msg))
-    await msg.answer(f"Твой location успешно получен:",
-                     reply_markup=types.ReplyKeyboardRemove())
+@dp.callback_query_handler(lambda c: c.data == "get_contacts")
+async def some_callback_handler(callback_query: types.CallbackQuery):
+    conn = connect_db()
+    cur = conn.cursor()
+    sql = f"""
+        SELECT * FROM users
+        """
+    all_contact = cur.execute(sql).fetchall()
+    data = ""
+    for contact in all_contact:
+        data += f'ID :{contact[0]}, PHONE : {contact[1]}\n'
+
+    await bot.send_message(callback_query.from_user.id, data)
+    conn.commit()
+    cur.close()
+    conn.close()
 
 
 @dp.message_handler(content_types=types.ContentType.CONTACT)
@@ -41,7 +51,7 @@ async def contacts(msg: types.Message):
     conn.commit()
     cur.close()
     conn.close()
-    await msg.answer(f"Success", reply_markup=types.ReplyKeyboardRemove())
+    await msg.answer(f"Success", reply_markup=inline_kb)
 
     # @dp.callback_query_handler(lambda c: c.data == "get")
     # async def some_callback_handler(callback_query: types.CallbackQuery):
