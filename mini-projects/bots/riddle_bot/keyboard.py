@@ -4,8 +4,15 @@ from aiogram.types import ReplyKeyboardRemove, \
     InlineKeyboardMarkup, InlineKeyboardButton
 
 
-pzbtn = InlineKeyboardButton(
-    f'Topishmoq! {emoji.emojize(":winking_face_with_tongue:")}', callback_data='get')
+markup_request = ReplyKeyboardMarkup(resize_keyboard=True).add(
+    KeyboardButton('Отправить свой контакт ☎️', request_contact=True)
+).add(
+    KeyboardButton('Отправить свою локацию 🗺️', request_location=True)
+)
 
-kb = InlineKeyboardMarkup()  # resize_keyboard=True
-kb.add(pzbtn)
+
+# get_phone = ReplyKeyboardButton(
+#     f"Telefon {emoji.emojize(':mobile_phone: ')}", callback_data='get_contact',
+#     request_contact=True)
+
+# kb = ReplyKeyboardMarkup().add(get_phone)  # resize_keyboard=True
