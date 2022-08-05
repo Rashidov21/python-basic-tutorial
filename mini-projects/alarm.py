@@ -5,16 +5,17 @@ import schedule
 import time
 import winsound
 
-hour = int(input("Enter a Hour :"))
-minute = int(input("Enter a Minute: "))
+# hour = int(input("Enter a Hour :"))
+# minute = int(input("Enter a Minute: "))
 
 
 def alarm():
     winsound.PlaySound('alarm.wav', winsound.SND_FILENAME)
 
 
-schedule.every().day.at(f"{hour}:{minute}").do(alarm)
+
+# schedule.every().day.at(f"{hour}:{minute}").do(alarm)
 # schedule.every(10).seconds.do(alarm)
-while True:
-    schedule.run_pending()
-    time.sleep(1)
+# while True:
+#     schedule.run_pending()
+#     time.sleep(1)
