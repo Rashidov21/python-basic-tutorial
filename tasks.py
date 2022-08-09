@@ -111,8 +111,11 @@
 # server log faylidan method nomi , url , status kodni ajratib alohida faylga yozing
 
 
-
 # task 11
 # Har bir uyda yashovchi odamlar soni aniq.
 # Uylarni raqamlash ketma-ket amalga oshiriladi. toq raqami bo'lgan uylar
 # ko'chaning bir tomonida joylashgan, juft raqamlar bilan boshqa tomonida. Ko'chaning qaysi tomonida ko'proq odam bor ?
+
+# task 12
+# input: user email. agar user email to'gri bo'lsa
+# output : "valid" or "not valid "
