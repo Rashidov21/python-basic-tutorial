@@ -84,22 +84,22 @@
 
 
 # Meros olish
-class Person:
-    age = 20
+# class Person:
+#     age = 20
 
-    def get_age(self):
-        print(self.age)
-
-
-class Player(Person):
-    def __init__(self, age, name):
-        self.age = Person.age
-        self.name = name
+#     def get_age(self):
+#         print(self.age)
 
 
-p = Player(23, "John")
-print(p.name)
-print(p.age)
-print(p.get_age())
+# class Player(Person):
+#     def __init__(self, age, name):
+#         self.age = Person.age
+#         self.name = name
+
+
+# p = Player(23, "John")
+# print(p.name)
+# print(p.age)
+# print(p.get_age())
 # Polimorfizm
 # Inkapsulyatsiya
