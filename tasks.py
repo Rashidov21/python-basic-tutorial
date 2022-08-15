@@ -119,3 +119,10 @@
 # task 12
 # input: user email. agar user email to'gri bo'lsa
 # output : "valid" or "not valid "
+
+# task 13
+# sinfda 15 ta bola  bor . har birini bo'yi kamayish tartibida berilgan
+# yil oxirida sinfga yana bir  bola qoshildi u tartib boyicha qayerha joylashishini ko'rsating
+# bolalar bo'ylariga qarab partalarga joylashadi yangi kelgan bola qaysi partada o'tirishini
+# chiqarishingiz kerak
+# partalar 2 qator 8 tadan , boyi pastlar oldinda 
