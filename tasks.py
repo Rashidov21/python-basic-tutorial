@@ -125,4 +125,10 @@
 # yil oxirida sinfga yana bir  bola qoshildi u tartib boyicha qayerha joylashishini ko'rsating
 # bolalar bo'ylariga qarab partalarga joylashadi yangi kelgan bola qaysi partada o'tirishini
 # chiqarishingiz kerak
-# partalar 2 qator 8 tadan , boyi pastlar oldinda 
+# partalar 2 qator 8 tadan , boyi pastlar oldinda
+
+# task 14
+# Boksda sportchilar uchun 4 sudya hakamlik qiladi va ularni har biri bergan ballarning
+# yigindisiga qarab qaysi sportchi yutgani aniqlanadi hakamlar bergan ballari boyicha qaysi sportchi yutganini chiqaruvchi dastur tuzing
+# input : 1.0 - 5.0
+# output : 1-sportchi

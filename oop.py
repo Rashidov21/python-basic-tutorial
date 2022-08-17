@@ -141,31 +141,31 @@
 
 # print(r3.population)
 
-class Robot:
-    population = 0
+# class Robot:
+#     population = 0
 
-    def __init__(self, name):
-        self.name = name
-        print('(Инициализация {0})'.format(self.name))
+#     def __init__(self, name):
+#         self.name = name
+#         print('(Инициализация {0})'.format(self.name))
 
-        Robot.population += 1
-
-
-def __del__(self):
-    '''Я умираю.'''
-    print('{0} уничтожается!'.format(self.name))
-    Robot.population -= 1
-
-    if Robot.population == 0:
-        print('{0} был последним.'.format(self.name))
-    else:
-        print('Осталось {0} работающих роботов.'.format(Robot.population))
+#         Robot.population += 1
 
 
-r1 = Robot("A2", "Tesla")
-r2 = Robot("A3", "Apple")
-r3 = Robot("A4", "Samsung")
-# r3.__del__(self)
-print(r3.population)
+# def __del__(self):
+#     '''Я умираю.'''
+#     print('{0} уничтожается!'.format(self.name))
+#     Robot.population -= 1
+
+#     if Robot.population == 0:
+#         print('{0} был последним.'.format(self.name))
+#     else:
+#         print('Осталось {0} работающих роботов.'.format(Robot.population))
+
+
+# r1 = Robot("A2", "Tesla")
+# r2 = Robot("A3", "Apple")
+# r3 = Robot("A4", "Samsung")
+# # r3.__del__(self)
+# print(r3.population)
 # Polimorfizm
 # Inkapsulyatsiya
