@@ -132,3 +132,21 @@
 # yigindisiga qarab qaysi sportchi yutgani aniqlanadi hakamlar bergan ballari boyicha qaysi sportchi yutganini chiqaruvchi dastur tuzing
 # input : 1.0 - 5.0
 # output : 1-sportchi
+
+# 9.lambda Anonim funksiya yozing
+# 10. Positsional va ixtiyoriy argument qabul funksiya qiluvchi kod yozin.
+# 11.Hozirgi vaqtni sanasi, vaqtini, minutini ekranga chiqaradigan kod yozing.
+# 13.  Oybekni 20 ta tovig’i bor ular kuniga 12-tadan 18-tagacha tuxum beradi.
+# Oybekni tovuqlari X kunda maximum nechta va minimum nechta tuzum berishi mumkin ekanini taxminam xisoblovchi dastur tuzing.
+# 14. FileNotFoundError ni chetlab o’tuvchi oddiy .txt faylni ochish kodini yozing.
+# 3.Listda  butun son berilgan bo'lsa, uning elementlari yig'indisini topadigan funksiya yozing.
+# 9.  1 dan  100 gacha sanab barcha 7 sonlarini alohida massivga yozing;
+
+# 13. season  degan Funktsiya yozing, u 1 ta argumentni oladi - oyning soni (1 dan 12 gacha) va bu oyga tegishli bo'lgan mavsumni qaytaradi (qish, bahor, yoz yoki kuz).
+
+# 16. class  MyUser uchun __init__ metod yozing, MyUser da name, age, email atributlari bo’lishi shart
+# class MyUser:
+# pass
+# 17. Car yani mashina obyektini iloji boricha to’liq ko’dini yozin
+# 21.  my_dict = {'a':500, 'b':5874, 'c': 560,'d':400, 'e':5874, 'f': 20}.
+# My_dict da eng katta qiymatga ega 3 ta elementni ekranga chiqaruvchi kod yozing
