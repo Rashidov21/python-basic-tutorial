@@ -150,3 +150,8 @@
 # 17. Car yani mashina obyektini iloji boricha to’liq ko’dini yozin
 # 21.  my_dict = {'a':500, 'b':5874, 'c': 560,'d':400, 'e':5874, 'f': 20}.
 # My_dict da eng katta qiymatga ega 3 ta elementni ekranga chiqaruvchi kod yozing
+# . Foydalanuvchi yiliga 10% miqdorida X sum miqdorida omonat qo'yadi (har yili uning depozit hajmi 10% ga oshadi. Ushbu pul depozit miqdoriga qo'shiladi va har yili 10% ga ortib boraveradi)
+# bank nomli funksiya yozing foydalanuvchi qancha miqdorda summa va necha yilga omonat qoyishini kiritadi dastur necha yil kiritilgan bolsa omonat miqdori qanchaga oshganligini hisoblashi kerak.
+a = ["Fifa", "FIFA", "fifa1"]
+a.sort(reverse=True, key=lambda x: x.lower())
+print(a)
