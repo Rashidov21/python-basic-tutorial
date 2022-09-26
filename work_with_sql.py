@@ -78,17 +78,16 @@ cur = con.cursor()  # db ni boshqarish obyekti
 #     age TEXT
 #     language TEXT
 
-sql = """
-    CREATE TABLE languages(
-        name TEXT,
-        frameworks TEXT);
-"""
+# sql = """
+#     CREATE TABLE languages(
+#         name TEXT,
+#         frameworks TEXT);
+# """
 
-
-sql = """
-    CREATE TABLE coders(
-        name TEXT,
-        age TEXT,
-        language TEXT,
-        );
-"""
+# sql = """
+#     CREATE TABLE coders(
+#         name TEXT,
+#         age TEXT,
+#         language TEXT,
+#         );
+# """
