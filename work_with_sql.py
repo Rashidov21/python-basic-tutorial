@@ -66,3 +66,29 @@ cur = con.cursor()  # db ni boshqarish obyekti
 # print(all_items)  # [(2, 'mike', 'Texas', 'USA')]
 # print(one_item)  # (2, 'mike', 'Texas', 'USA') -
 # print(many_items)  # [(2, 'mike', 'Texas', 'USA')]
+
+# staff.db
+
+# languages
+#     name TEXT
+#     frameworks TEXT
+
+# coders
+#     name TEXT
+#     age TEXT
+#     language TEXT
+
+sql = """
+    CREATE TABLE languages(
+        name TEXT,
+        frameworks TEXT);
+"""
+
+
+sql = """
+    CREATE TABLE coders(
+        name TEXT,
+        age TEXT,
+        language TEXT,
+        );
+"""
