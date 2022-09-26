@@ -7,7 +7,7 @@
 
 import sqlite3
 
-con = sqlite3.connect("./customers.db")  # db ga boglanish
+con = sqlite3.connect("./staff.db")  # db ga boglanish
 cur = con.cursor()  # db ni boshqarish obyekti
 
 # sql_command_1 = """
@@ -88,6 +88,25 @@ cur = con.cursor()  # db ni boshqarish obyekti
 #     CREATE TABLE coders(
 #         name TEXT,
 #         age TEXT,
-#         language TEXT,
+#         language TEXT
 #         );
 # """
+
+# sql = """
+#     INSERT INTO languages
+#     VALUES('Javascript','Node.js,Vue.js');
+# """
+
+# sql = """
+#     INSERT INTO coders
+#     VALUES('John Doe',30,'Python');
+# """
+try:
+    cur.execute(sql)
+except sqlite3.DatabaseError as err:
+    print(err)
+else:
+    con.commit()
+    cur.close()
+    con.close()
+    print("Success")
