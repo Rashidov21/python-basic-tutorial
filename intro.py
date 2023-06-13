@@ -87,6 +87,3 @@ Tutorial file
 # Data Structure - list,tuple,dict,set,frozenset,bytes,bytearray
 
 
-# task 1
-# a = int(input("A ? "))
-# print("Perimetr =",4*a)
