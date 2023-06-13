@@ -1,9 +1,8 @@
+# Data Types - bool,int,float,complex,str,None
 """
-
 Python Basic 3.8.8
 Seshanba 14:00 
 Tutorial file 
-
 """
 # print("Hello world!")
 
@@ -82,7 +81,41 @@ Tutorial file
 
 # print(str(age)*5) # 2020202020
 
-# Data Types - bool,int,float,complex,str,None
+
+# str() - qator , belgilar ketma-ketligi
+
+# s = str(123)
+# print(type(s))
+# print(s*2)
+# print(s/2) # TypeError: unsupported operand type(s) for /: 'str' and 'int'
+
+# print(s-2) # TypeError: unsupported operand type(s) for /: 'str' and 'int'
+# print(s+2) # TypeError: can only concatenate str (not "int") to str
+
+# s = """lorem 1"""
+# s2 = "lorem 2"
+# s3 = 'lorem 3'
+
+# print('user "username" = john')
+# print("""user "username" = 'john'""")
+# print('don\'t') # don't
+# \t - tab 
+# \n - new line 
+# \a - system sound 
+# print("\t\tlorem\n ipsum \a")
+# f string 
+# 1-variant  
+# var = "f string"
+# var2 = "variant 2"
+# print("%s" %var) # f string
+# #2-variant
+# print("{0}/{1}".format(var,var2))
+# # 3-variant
+# print(f"{var} = {2+2}")
+
+# print(r"\t lorem , \nipsum") # \t lorem , \nipsum
+
+
 
 # Data Structure - list,tuple,dict,set,frozenset,bytes,bytearray
 
