@@ -26,3 +26,42 @@
 # if n > 0:
 #     for i in range(n):
 #         print(k)
+
+
+# while 
+
+# i = 100
+# while i:
+#     i -= 1
+#     print(i)
+    
+# while True:
+#     print("hello world")
+
+# for i in range(10):
+#     if i % 2 == 0:
+#         continue # keyingi iteratsiyaga o'tish
+#     if i == 7:
+#         break # tsikldan chiqish
+#     print(i)
+    
+# i = 0
+# while True:
+#     i += 1
+#     if i > 50:
+#         if i % 2 == 1:
+#             continue
+#     if i > 100:
+#         break
+#     print(i)
+
+# task 1
+# while orqali userdan sonlar qabul qiling va kiritgan sonlarini yigindisini hisoblab boring , agar user "stop" deb kiritsa dastur toxtasin va sonlar yigindisi ekranga chiqsin
+
+# summa = 0
+# while True:
+#     user = input("Son kirit ?")
+#     if user == "stop":
+#         break
+#     summa += int(user)
+# print(summa)
