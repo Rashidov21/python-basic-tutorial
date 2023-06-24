@@ -74,3 +74,16 @@ lang = "Python"
 
 # task 1
 # user kiritgan sonlar orasidagi barcha sonlarni toq va juft ekaniga qarab alohida alohida string ga yozing 
+
+# n1 = int(input())
+# n2 = int(input())
+
+# odd = ""
+# even = ""
+
+# for i in range(n1,n2+1):
+#     if(i%2==0):
+#         even += f"{i},"
+#     else:
+#         odd += f"{i},"
+# print(odd.strip(',') , even.rstrip(','))
