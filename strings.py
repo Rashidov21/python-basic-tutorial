@@ -61,13 +61,16 @@ lang = "Python"
 # s = 'Javascript\tand\tPython'
 # print(s.split('\t')) # ['Javascript', 'and', 'Python']
 # print(s.rsplit('\t')) # ['Javascript', 'and', 'Python']
-more_text = "Lorem ipsum\n \
-dolor amet \n \
-sit color"
+# more_text = "Lorem ipsum\n \
+# dolor amet \n \
+# sit color"
 
-# print(len(more_text))
-print(more_text)
-print(more_text.splitlines()) # ['Lorem ipsum', ' dolor amet ', ' sit color']
+# # print(len(more_text))
+# print(more_text)
+# print(more_text.splitlines()) # ['Lorem ipsum', ' dolor amet ', ' sit color']
 
-print("".join(["a",'A',"b","B"])) # aAbB
-print("-".join(["a",'A',"b","B"])) # a-A-b-B
+# print("".join(["a",'A',"b","B"])) # aAbB
+# print("-".join(["a",'A',"b","B"])) # a-A-b-B
+
+# task 1
+# user kiritgan sonlar orasidagi barcha sonlarni toq va juft ekaniga qarab alohida alohida string ga yozing 
