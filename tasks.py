@@ -27,14 +27,17 @@
 
 # v = "Salom#Qalesan#Alik#"
 # l = len(v)
-card = "8600 1600 2530 1535"
-c = 0
-result = ""
+# card = "8600 1600 2530 1535"
+# c = 0
+# result = ""
 
-for n in card.split(" "):
-    if c == 3:
-        result += n 
-    else:
-        result += "**** "
-        c += 1
-print(result)
+# for n in card.split(" "):
+#     if c == 3:
+#         result += n 
+#     else:
+#         result += "**** "
+#         c += 1
+# print(result)
+
+# task 3 
+# n soni berilgan (30 > n > 0) 0 dan n gacha bo'lgan sonlarni orasida probellar bilan chiqaring agar son toq bo'lsa bitta probel bilan uni keyingi son orasini belgilaysiz agar juft bo'lsa 2 ta probel bilan. misol : 0  1 2  3 4  5
