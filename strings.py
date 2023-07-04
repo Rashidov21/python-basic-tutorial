@@ -87,3 +87,53 @@ lang = "Python"
 #     else:
 #         odd += f"{i},"
 # print(odd.strip(',') , even.rstrip(','))
+
+# s = "Hello world in Python"
+# print(s.find("world")) #6
+# print(s.find("open")) #-1
+
+# s = "hello"
+# print(s.index('l'))
+# print(s.index('t')) # ValueError: substring not found
+
+
+# s = "Hello world"
+# print(s.count("l")) # 3
+# print(s.count("u")) # 0
+
+
+# parser_text = """Python api basic framework django rest full api fast api tarnado parler 
+# silk debug tool bar rest api"""
+
+# s = "Javascript"
+# print(s.startswith("java")) # False
+# print(s.startswith("Java")) # True
+
+# print(s.endswith("pt")) # True
+
+
+# print(s.replace("Java", "Type")) # Typescript
+
+
+# s = "ab12"
+# print(s.isalnum()) # True
+    # isalpha() - faqat harflar
+    # isdigit() - faqat butun sonlar
+    # isdecimal() - faqat 10 lik sanoq tizimidagi sonlar 
+    # isnumeric() - faqat sonli belgi
+    # isupper() - Faqat katta harflar
+    # islower() - Faqat kichik harflar
+    # istitle() - Birinchi harfi katta
+    # isspace() - qatordagi bosh joylar faqat probel
+
+
+
+
+
+
+# task 1
+    # task 1.1
+    # Berilgan matnda eng kop ishtirok etgan sozni toping 
+    # task 1.2
+    # Eng kop ishtirok etgan sozni 'baqlajon' so'ziga almashtiring
+
