@@ -147,3 +147,97 @@
 # task 1
 # Qatorda bir belgi necha marta qatnashganini hisoblang.
 # string = 'Python Software Foundation'
+
+# task 2 
+# 9 karra ni 10 ta savolini ekranga chiqaruvchi va userdan javob qabul qiliuvchi dastur tuzing
+# maslan birinchi savol: 9 x 1 = ?  , userdan sonni qabul qilib dastur keyingi savolga o'tadi 10 ta savoldan keyin
+# dastur foydalanuvchini barcha variantlarini tekshiradi va ekranga qaysi savolga tog'ri qaysi savolga xato javob berganini chiqaradi masalan :
+# 9 x 1 = 1 xato javob 9 bo'ladi  
+# 9 x 2 = 18 tog'ri javob 
+# ....
+
+
+
+# sort , sorted 
+# arr = [1,5,4,8,9,6,3,4]
+# arr.sort()
+# print(arr) # [1, 3, 4, 4, 5, 6, 8, 9]
+# arr.sort(reverse=True)
+# print(arr) # [9, 8, 6, 5, 4, 4, 3, 1]
+
+# arr = ['Python','PYTHON','python','pytHon','pythoN']
+
+# arr.sort()
+# print(arr) # ['PYTHON', 'Python', 'pytHon', 'pythoN', 'python']
+
+# alpha = "BaTSZxy1U2"
+# t = (1,5,4,6,8,3)
+
+# for i in sorted(t, reverse=True):
+#     print(i, end="") # 12BSTUZaxy , 865431
+
+# s = set()
+# s = {1,2,3,4,6}
+
+
+# hi = "Hello Guys !"
+# s = set(hi)
+# print(s) # {'o', ' ', 'e', 'G', 's', '!', 'y', 'u', 'H', 'l'}
+# print(s[0]) # TypeError: 'set' object is not subscriptable
+
+# frozenset - set ni o'zgarmas varianti 
+# fs = frozenset("hello")
+# print(fs) # frozenset({'l', 'e', 'o', 'h'})
+
+# dict - obyektlar toplami , ularga indeks orqali emas balki kalit so'z orqali murojaat qilinadi
+
+# d = dict(name="John", age=20)
+# print(d) # {'name': 'John', 'age': 20}
+# user = {
+#     'username' : 'gandi123',
+#     'age': 23
+# } 
+# print(user) # {'username': 'gandi123', 'age': 23}
+
+# print(user.username) # AttributeError: 'dict' object has no attribute 'username'
+
+# print(user['username']) # gandi123
+
+# for i in user:
+#     print(i) # username , age
+    
+# for i in user:
+#     print(user[i]) # gandi123 , 23
+
+# print(user.keys()) # dict_keys(['username', 'age'])
+# for key in user.keys():
+#     print(key) # username , age
+# for val in user.values():
+#     print(val)
+# for item in user.items():
+#     print(item) # ('username', 'gandi123'), ('age', 23)
+# d = {}
+# d["age"] = 12 # 1 variant
+# print(d) # {'age': 12}
+# d.update({"salary":500}) # 2 variant
+# print(d) # {'age': 12, 'salary': 500}
+
+
+# task 1
+# a = "ABCDEFHG"
+# b = "12345678"
+# d = {}
+# # d dictiga a dan kalit va b dan qiymat olgan holatda yozing
+# # output: {"A":1,"B":2 ..}
+
+# for i in range(len(a)):
+#     d.update({a[i]:b[i]})
+# print(d) # {'A': '1', 'B': '2', 'C': '3', 'D': '4', 'E': '5', 'F': '6', 'H': '7', 'G': '8'}
+
+# print({k:v for (k,v) in zip(a,b) }) 
+
+
+# task 2 
+# userdan so'z qabul qiling va uni bo'gimlarga ajrating
+# input: bemaza , palov
+# output: be , ma , za  : pa , lo

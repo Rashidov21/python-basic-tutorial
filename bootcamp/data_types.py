@@ -42,6 +42,3 @@
 # print(7 % 3) # 1
 
 
-# task 1 
-a = int(input("KV tomoni "))
-print("Perimetr=", 4*a)
