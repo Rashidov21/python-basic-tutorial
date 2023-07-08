@@ -146,8 +146,14 @@
 
 # task 1
 # Qatorda bir belgi necha marta qatnashganini hisoblang.
-# string = 'Python Software Foundation'
-
+    # task 1.1
+    # string = 'Python Software Foundation'
+    # letter = "o"
+    # task 1.2
+    # string = 'Python Software Foundation'
+    # output : "o" = 4 
+    
+# chalanoxot
 # task 2 
 # 9 karra ni 10 ta savolini ekranga chiqaruvchi va userdan javob qabul qiliuvchi dastur tuzing
 # maslan birinchi savol: 9 x 1 = ?  , userdan sonni qabul qilib dastur keyingi savolga o'tadi 10 ta savoldan keyin
