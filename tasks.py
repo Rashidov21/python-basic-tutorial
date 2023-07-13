@@ -41,3 +41,35 @@
 
 # task 3 
 # n soni berilgan (30 > n > 0) 0 dan n gacha bo'lgan sonlarni orasida probellar bilan chiqaring agar son toq bo'lsa bitta probel bilan uni keyingi son orasini belgilaysiz agar juft bo'lsa 2 ta probel bilan. misol : 0  1 2  3 4  5
+
+# task 4 
+# 1 dan  500 gacha sanab barcha 7 sonlarini alohida massivga yozing;
+# Masalan nums = [7,17,27……]
+
+sevens = []
+for i in range(1,501):
+    if "7" in str(i):
+        sevens.append(i)
+print(sevens)
+
+print([x for x in range(1,501) if "7" in str(x)])
+
+# task 5
+import random
+user = {
+    "name":"Mike Dean",
+    "key_number":"*****"
+}
+#  Ushbu dict  uchun key_number maydoniga name maydoni qiymati uzunligida 1 dan 50 gacha bo’lgan sonlardan tasodifiy sonlar hosil qiling
+key_nums = ""
+for i in range(len(user["name"])):
+    n = random.randint(1,9)
+    key_nums += str(n)
+user["key_number"] = key_nums
+
+print(user) # {'name': 'Mike Dean', 'key_number': '986572342'}
+
+# task 6 
+# Berilgan massivdan sonlarni bir xillarini olib tashlab faqat sanoqdagi ketma-ket sonlarni qoldiring
+# Masalan arr = [1,5,6,1,8,5,9]  Output/Javob arr = [1,5,6,8,9]
+# Sizga berilgan Massiv bu >> arr = [2,6,6,4,7,8,2,9,7,1,9]

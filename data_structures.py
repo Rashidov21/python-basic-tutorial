@@ -247,3 +247,38 @@
 # userdan so'z qabul qiling va uni bo'gimlarga ajrating
 # input: bemaza , palov
 # output: be , ma , za  : pa , lo
+
+
+# d = {"age":20,"position":"backend"}
+
+# print("age" in d) # True
+# print("country" in d) # False
+
+# print(d["country"]) # KeyError: 'country'
+# print(d.setdefault("age")) # 20
+# print(d.setdefault("country")) # None
+# d.setdefault("country","USA")
+# print(d) # USA
+
+# d = {"age":20,"position":"backend"}
+# print(d.keys())
+# print(d.values())
+# print(d.items())
+
+
+# olish 
+# d = {"age":20,"position":"backend"}
+
+# print(d["country"]) # KeyError: 'country'
+# print(d.get("age"))
+# print(d.get("country")) # None
+# d.pop("age") # korsatilgan key boyicha elementni ochirish
+# print(d) # {'position': 'backend'}
+# d.popitem() # tasodify bitta elementni ochirish
+# d.clear()
+# print(d) # {}
+
+# d.update({'country':"USA"}) 
+# print(d)# {'age': 20, 'position': 'backend', 'country': 'USA'}
+# d.update(country='USA',salary=1200)
+# print(d)# {'age': 20, 'position': 'backend', 'country': 'USA', 'salary': 1200}
