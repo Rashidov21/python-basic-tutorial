@@ -46,30 +46,43 @@
 # 1 dan  500 gacha sanab barcha 7 sonlarini alohida massivga yozing;
 # Masalan nums = [7,17,27……]
 
-sevens = []
-for i in range(1,501):
-    if "7" in str(i):
-        sevens.append(i)
-print(sevens)
+# sevens = []
+# for i in range(1,501):
+#     if "7" in str(i):
+#         sevens.append(i)
+# print(sevens)
 
-print([x for x in range(1,501) if "7" in str(x)])
+# print([x for x in range(1,501) if "7" in str(x)])
 
 # task 5
-import random
-user = {
-    "name":"Mike Dean",
-    "key_number":"*****"
-}
+# import random
+# user = {
+#     "name":"Mike Dean",
+#     "key_number":"*****"
+# }
 #  Ushbu dict  uchun key_number maydoniga name maydoni qiymati uzunligida 1 dan 50 gacha bo’lgan sonlardan tasodifiy sonlar hosil qiling
-key_nums = ""
-for i in range(len(user["name"])):
-    n = random.randint(1,9)
-    key_nums += str(n)
-user["key_number"] = key_nums
+# key_nums = ""
+# for i in range(len(user["name"])):
+#     n = random.randint(1,9)
+#     key_nums += str(n)
+# user["key_number"] = key_nums
 
-print(user) # {'name': 'Mike Dean', 'key_number': '986572342'}
+# print(user) # {'name': 'Mike Dean', 'key_number': '986572342'}
 
 # task 6 
 # Berilgan massivdan sonlarni bir xillarini olib tashlab faqat sanoqdagi ketma-ket sonlarni qoldiring
 # Masalan arr = [1,5,6,1,8,5,9]  Output/Javob arr = [1,5,6,8,9]
 # Sizga berilgan Massiv bu >> arr = [2,6,6,4,7,8,2,9,7,1,9]
+
+# task 7 
+
+# Kinoteatrda 15 ta qator  bor har bir qatorda 20 tadan o'rin bor. O'rindiqlar seriya raqamlangan
+# misol : A12 A bu yerda qator tartib harfi 12 esa  o’rindiq tartib raqami siz foydalanuvchi kiritgan seriya raqamiga qarab o’rindiq qaysi qatorda joylashganini topishingiz kerak. Bundan tashqari random shaklda o’rindiqlar band qilinadi , Kinoteatr 50% ga to’ldiriladi siz foydalanuvchi kiritgan o’rindiq band yoki bosh ekanini chiqarishingiz kerak.
+
+# task 8 
+# 9 qavatli uyda 3-ta podyezd bor har bir qavatda 6 tadan kvartira bor. Foydalanuvchi kvartira raqamini kiritsa siz topishingiz kerak;
+# (kvartiralar raqamlari 1-chi qavatdan 1-podyezdan boshlanadi : 1-kv , 1-podyezd 1-etaj)
+# Kvartira qaysi qavatda ekanini
+# Kvartira qaysi podyezdda ekanini
+
+
