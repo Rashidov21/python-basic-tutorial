@@ -1,5 +1,6 @@
 import time 
 import datetime
+import calendar
 
 import locale
 locale.setlocale(locale.LC_ALL, "UZ_uz") # Ozbek tili uchun 
@@ -69,3 +70,19 @@ locale.setlocale(locale.LC_ALL, "UZ_uz") # Ozbek tili uchun
 # tugilgan sanangizni kiritib xozirgi vaqt bilan hisoblab necha kun yashaganizni chiqaring
 
 # print(datetime.date(_now.year,_now.month,_now.day) - datetime.date(1995,10,30))
+
+
+# day = datetime.date.today().day # int day number
+# month = datetime.date.today().month # int month number
+# year = datetime.date.today().year # int year number
+
+# print(f"Today {day}/{month}/{year}")
+
+# your_brth = int(input(" year ?"))
+# print(f"Your age {year - your_brth}")
+
+# cal = calendar.LocaleHTMLCalendar()
+# cal = calendar.TextCalendar()
+# cal = calendar.HTMLCalendar()
+# # print(cal.formatmonth(7))
+# print(cal.formatyear(2023))
