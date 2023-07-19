@@ -1,3 +1,6 @@
+import os 
+print(os.path) # python install directory
+
 # for , while - takrorlanish
 # print(1)
 # print(2)
@@ -31,3 +34,4 @@
 
 # task 1 
 # 1 dan 100 gacha bo'lgan sonlar orasida 5 ga qoldiqsiz bo'linadigan  barcha sonlarni ekranga chiqaring
+
