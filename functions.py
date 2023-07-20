@@ -68,3 +68,114 @@
 #         "military":True
 #     },
 # ]
+
+
+# def main_func(x):
+#     return x ** 2
+
+# var_func = main_func
+# print(main_func) # <function main_func at 0x000002974B258A60>
+# print(var_func is main_func) # True
+# print(var_func(2)) # 4
+
+# *args, **kwargs - arguments , keyword arguments
+
+# a , b , *c = [1,2,3,4,5,6]
+
+# print(a)
+# print(b)
+# print(c)
+
+# def args_func(*args, **kwargs): # super function
+#     print(type(args)) # <class 'tuple'>
+#     print(args) # (1, 2, 3, 'four', False, [1, 2, 3])
+#     print(type(kwargs)) # <class 'dict'>
+#     print(kwargs)
+#     for i in args:
+#         print(i)
+#     return True
+
+# # args_func(1,2,3,"four",False, [1,2,3])
+
+# args_func(1,2,name="John")
+
+# def kwargs_func(*args,**kwargs):
+#     for i in args:
+#         print(i, end="")
+#     for k in kwargs.values():
+#         print(k, end="")
+#     return True
+
+# kwargs_func(10,20,a=30,b=40)
+
+# personal = [
+#     {
+#         "name":"John Doe",
+#         "military":True
+#     },
+#     {
+#         "name":"Sara Connor",
+#         "military":False
+#     },
+#       {
+#         "name":"Mike Tyson",
+#         "military":True
+#     },
+#         {
+#         "name":"Charli Chaplin",
+#         "military":False
+#     },
+# ]
+# def check_military_status(user_list):
+#     result = []
+#     for item in user_list:
+#         if item.get("military"):
+#             result.append(item)
+#     return result
+# r = check_military_status(personal)
+# print(r)
+
+
+# lambda - anonim function 
+
+# x = lambda a,b : a + b
+# print(x(2,2)) # 4
+
+# def update_profile(**kwargs):
+#     full_name = lambda name , surname: str(name) + " " + str(surname)
+#     result_text = f"""\
+#     name = {kwargs.get("name")}\n
+#     surname = {kwargs.get("surname")}\n
+#     age = {kwargs.get("age")}\n
+#     full name = {full_name(kwargs.get("name"),kwargs.get("surname"))}
+#     """
+#     return result_text
+
+# user = update_profile(name="John", surname="Doe", age=20)
+
+# print(user)
+
+
+# arr = [1,4,6,69,89,47,2,36,4,2,63,4,3,12,56,98]
+# # res_arr = []
+# print([x for x in arr if x > 50]) # [69, 89, 63, 56, 98]
+# # for x in arr:
+# #     if x > 50:
+# #         res_arr.append(x)
+# # print(res_arr) # [69, 89, 63, 56, 98]
+
+# # print(filter(lambda x : x > 50, arr)) # <filter object at 0x00000259DAA23C70>
+# res = list(filter(lambda x : x > 50, arr))
+# print(res) # [69, 89, 63, 56, 98]
+
+
+# function Generator
+# def gen_func(a,b):
+#     for i in range(1, a+1):
+#         yield i ** b
+        
+# print(gen_func) # <function gen_func at 0x000002051DA98A60>
+# print(type(gen_func)) #<class 'function'>
+
+# print(list(gen_func(10,2))) # [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+# print(tuple(gen_func(10,2))) # (1, 4, 9, 16, 25, 36, 49, 64, 81, 100)
