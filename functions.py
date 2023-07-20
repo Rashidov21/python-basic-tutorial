@@ -173,9 +173,19 @@
 # def gen_func(a,b):
 #     for i in range(1, a+1):
 #         yield i ** b
-        
+# def main(x):
+#     yield x
+#     x = 10 
+#     yield x 
+# print(list(main(5))) # [5, 10]     
 # print(gen_func) # <function gen_func at 0x000002051DA98A60>
 # print(type(gen_func)) #<class 'function'>
 
 # print(list(gen_func(10,2))) # [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
 # print(tuple(gen_func(10,2))) # (1, 4, 9, 16, 25, 36, 49, 64, 81, 100)
+
+# border-radius
+# borderRadius
+
+# border-top-left-radius
+# borderTopLeftRadius
