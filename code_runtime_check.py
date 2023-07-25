@@ -8,6 +8,10 @@ code = """
 #     a.append(i)
 a = [i for i in range(10**6)]
 """
+
 tl = Timer(stmt=code)
 print("while: ", tl.timeit(number = 10))
+
+
+
 

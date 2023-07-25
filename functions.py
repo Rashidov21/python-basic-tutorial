@@ -189,3 +189,88 @@
 
 # border-top-left-radius
 # borderTopLeftRadius
+
+
+# decorators 
+# def wrapper(f):
+#     print(f"{f.__name__} - funktsiya ishga tushdi")
+#     return f
+
+# @wrapper
+# def main():
+#     print("Main func")
+
+# main()
+
+# request.user.is_authenticated() -> True 
+
+
+# password = "1234"
+
+# username = input("Usernamer \n")
+# user_password = input("Password \n")
+
+# def is_authenticated(func):
+#     if user_password == password:
+#         return func
+#     else:
+#         return lambda :"Authorization fail !"
+    
+    
+# @is_authenticated
+# def login():    
+#     return f"Welcome back ! {username}"
+
+# @is_authenticated
+# def contact():
+#     print("Welcome to contact page !")
+
+# print(login())
+
+ 
+# contact()   
+
+# recursion 
+
+# def recursion(x):
+#     x -= 1
+#     print(x)
+#     if x < 0:
+#         print("The end !")
+#     else:
+#         recursion(x)
+
+# # recursion(100) # RecursionError
+# recursion(10)
+
+# import math
+# print(math.factorial(5)) # 120
+# print(math.factorial(6)) # 720
+
+# 5 >> 120 
+# 1*2*3*4*5 = 120
+
+
+n = int(input("N ?>"))
+factorial_num = 1
+for i in range(1,n+1):
+    factorial_num *= i
+
+print(factorial_num) # 120
+
+
+
+def factorial(n):
+    if n == 0 or n == 1: return 1 
+    else:
+        return n * factorial(n - 1)
+
+
+
+
+
+
+
+
+
+     
