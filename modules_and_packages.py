@@ -17,12 +17,12 @@ modules
 
 # soup = bs()
 
-from bootcamp import intro
+# from bootcamp import intro
 
 
-print(intro.INTRO) # Intro module
+# print(intro.INTRO) # Intro module
 
-import emoji
+# import emoji
 
-print(emoji.emojize('Python is :Japanese_open_for_business_button:'))
-print(emoji.emojize('Python is :thumbs_up:'))
+# print(emoji.emojize('Python is :Japanese_open_for_business_button:'))
+# print(emoji.emojize('Python is :thumbs_up:'))
