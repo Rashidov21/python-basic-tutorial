@@ -86,3 +86,28 @@
 # Kvartira qaysi podyezdda ekanini
 
 
+
+# task 9 
+# Istalgan turdagi elementlari mavjud bolgan massivdan faqat sonlarini topib ularni yigindisini hisoblovchi dastur tuzing (Faqat musbat sonlar hisoblanadi)
+# l = [True , 1 , 0.3, "one", ["1","uu"]]
+# output: 1.3 
+
+
+# task 10 
+# Qiymatlarida butun sonlar berilgan  2 ta dict mavjud siz dictlarda bir xil qiymatga ega elementlarni boshqa random sonlarga almashtirishingiz kerak 
+# input:
+# a = {"a":5,"b":3}
+# b = {"a":2,"b":1, "c":3}
+# # output:
+# a = {"a":5,"b":8}
+# b = {"a":2,"b":6}
+
+# task 11 
+# Odil har kuni muntazam 9 soatdan uxlashni reja qilgan. Siz uning uchun u soat nechida uxlashga yotsa roppa rosa 9 soatdan keyin soat nechi bo’lishini hisoblaydigan dastur yozishingiz kerak. Agar Tohir soat 22:00 da uhlashga yotsa demak uyg’onganida soat 07:00 bo’lishini ko’rsatishingiz kerak.
+# Kirish : ‘22:00’
+# Chiqish : ‘07:00’
+# st = "21:30"
+# print(abs(9-(24 - int(st.split(":")[0]))) ,":", int(st.split(":")[1])) 
+
+# task 12
+# Abdulloh ni Asaka Bank da har oy kirim X mln puli bor va davlatga shu daromad pullaridan 12% daromad solig’i to’lashi kerak. Abdulloh bu yilning 5- oyda davlatimizga qancha soliq to’lashini hisoblang.// x=int(input())
