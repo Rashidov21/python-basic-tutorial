@@ -251,26 +251,54 @@
 # 1*2*3*4*5 = 120
 
 
-n = int(input("N ?>"))
-factorial_num = 1
-for i in range(1,n+1):
-    factorial_num *= i
+# n = int(input("N ?>"))
+# factorial_num = 1
+# for i in range(1,n+1):
+#     factorial_num *= i
 
-print(factorial_num) # 120
-
-
-
-def factorial(n):
-    if n == 0 or n == 1: return 1 
-    else:
-        return n * factorial(n - 1)
+# print(factorial_num) # 120
 
 
 
+# def factorial(n):
+#     if n == 0 or n == 1: return 1 
+#     else:
+#         return n * factorial(n - 1)
+# print(factorial(100))
+
+# global , local vars
+
+# x = 10 # global var
+
+# def man():
+#     if int(input()) == 1:
+#         print(x * 10) # 100
+        
+# man()
+
+# def boxing():
+#     global x 
+#     x = 5 # locale var
+#     if int(input()) == 1:
+#         print(x * 10) # 100
+# boxing()
+# print(x ** 2) #25
 
 
+# __annotations__
 
+# def indent_right(s,width):
+#     return " " * (max(0, width - len(s))) + s
 
+# x : int = 10
+# y : int = 5
+# print(x+y) # 15
 
+# def indent_right(s: str, width: int) -> str:
+#     return " " * (max(0, width - len(s))) + s
+    
+# print(indent_right("python", 16))
+# def plus(num : int, num2 : int) -> int:
+#     return num + num2
 
-     
+# print(plus(2,2)) # 4
