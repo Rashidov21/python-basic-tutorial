@@ -104,12 +104,12 @@
 # input: a=30, b=50,c=10
 # output: [('b',50),('a',30),('c',10)] 
 
-def sorted_values(**kwars):
-    res = [i for i in kwars.items()]
-    res = sorted(res, key=lambda x : x[1], reverse=True)
-    return res
+# def sorted_values(**kwars):
+#     res = [i for i in kwars.items()]
+#     res = sorted(res, key=lambda x : x[1], reverse=True)
+#     return res
     
-print(sorted_values(a=30, b=50,c=10)) # [('b', 50), ('a', 30), ('c', 10)]
+# print(sorted_values(a=30, b=50,c=10)) # [('b', 50), ('a', 30), ('c', 10)]
     
-x = lambda **kwargs: [sorted(kwargs.items(), key=lambda x : x[1], reverse=True)]
-print(x(a=30, b=50,c=10)) # a=30, b=50,c=10
+# x = lambda **kwargs: [sorted(kwargs.items(), key=lambda x : x[1], reverse=True)]
+# print(x(a=30, b=50,c=10)) # a=30, b=50,c=10
