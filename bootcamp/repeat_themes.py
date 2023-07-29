@@ -165,6 +165,6 @@
 # main()
 # some_func()
 
+# https://t.me/robocode_s_14_00
 
-
-
+# EHM - elektron hisoblash mashinasi 
