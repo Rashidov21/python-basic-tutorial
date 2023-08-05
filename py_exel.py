@@ -14,4 +14,4 @@ for i in df.values:
 #     json.dump(data ,file)
 with open("number.txt", "w+", encoding='utf-8') as f:
     for i in data:
-        f.write(f"{i.get('phone')}\n")
+        f.write(f"{i.get('phone')}, ")

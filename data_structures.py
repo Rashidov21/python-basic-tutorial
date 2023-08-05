@@ -282,3 +282,8 @@
 # print(d)# {'age': 20, 'position': 'backend', 'country': 'USA'}
 # d.update(country='USA',salary=1200)
 # print(d)# {'age': 20, 'position': 'backend', 'country': 'USA', 'salary': 1200}
+
+# task 1 
+# userdan turli malumotlat qabul qiladigan va ularni turi boyicha sanaydigan va saralaydigan dastur tuzing
+# input : 1 , "s", False, None, ['a','b'], True 
+# output : bool = 2 , int = 1 , str = 1 ....  
