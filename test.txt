@@ -1,3 +1,19 @@
-line 1\n
-line 2\n
-line 3
+Enter - ruxsat 
+CTRL - Boshqarish
+Alt - Qo'shimcha boshqaruv
+Shift - O'zgarturuvchi
+Esc (Escape) - Yakunlanmagan amalni bekor qilish 
+Backspace - Bir belgi ortga
+Caps Lock - Yuqori registerga otish
+Num Lock - Raqamli tugmalarni yoqish yoki o'chirish
+
+Win - Windows OS asosiy tugmasi
+Space (probel) - 
+FN - function - harakat
+TAB - 4 ta bosh joy tashlash
+Page UP  - Bir sahifa yuqoriga
+Page DOWN - Bir sahifa pastga "Never give up"
+Home - Uy , hujjatni boshi
+End - Oxiri, hujjatni oxiri
+DEL - O'chirish (delete)
+
