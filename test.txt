@@ -17,3 +17,38 @@ Home - Uy , hujjatni boshi
 End - Oxiri, hujjatni oxiri
 DEL - O'chirish (delete)
 
+Chrome , Edge, Yandex , Mozilla Firefox
+
+CTRL + N - New File - yangi oyna yoki fayl
+CTRL + Shift + N  - Режим инкогнито (Cookie, search history)
+CTRL + J - Yuklamalar
+CTRL + H - Tarix
+CTRL + O - Ochish 
+CTRL + F - Qidirish
+CTRL + Shift + Tab - Oxirgi yopilgan oynani tiklash
+
+Ctrl + X - Matnni qirqib olish 
+Ctrl + C - Matnni nusxalash
+Ctrl + V - Matnni joylashtirish
+Ctrl + Z - Oxirgi buyruqni bekor qilish
+Ctrl + Y - Oxirgi buyruqni takrorlash
+Alt + Tab - Ochilgan oynalar o'rtasida o'tish
+Alt + F4 - Dasturni yakunlash
+F2 - Fayl nomini tahrirlash
+F5 - Oynani yangilash
+F6 - Ilovani oynalari yoki bo'limlari bo'ylab harakatlanish
+F10 -Ilovada menyu satrini ochish
+Alt + F8 -Kirish ekranida parollarni ko'rsatish 
+Alt + Esc - Ob'ektlarni ochilgan tartibda aylantirish
+Alt + Стрелка вверх(Yuqori ko'rsatkich) - 
+Alt + Стрелка вниз (Past ko'rsatkich) - 
+
+
+Isakov Muhammadyusuf - 26
+Zaynobiddinov Muhammadali - 14
+Ziyoydin Abdujabborov - 21
+Adbulazizov Abdusamat - 11
+To'lqinov Saidullo - 12
+Zuhridilloxonov Ayubxon - 27
+Muhammadamin Hadjimatov - 26
+Habibullayev Davonbek - 32
