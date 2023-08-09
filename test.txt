@@ -1,8 +1,10 @@
-Enter - ruxsat 
-CTRL - Boshqarish
-Alt - Qo'shimcha boshqaruv
-Shift - O'zgarturuvchi
-Esc (Escape) - Yakunlanmagan amalni bekor qilish 
-Backspace - Bir belgi ortga
-Caps Lock - Yuqori registerga otish
-Num Lock - Raqamli tugmalarni yoqish yoki o'chirish
+
+OS - operation system , kompyuterni boshqarish uchun dasturiy ta'minot
+
+Windows - microsoft - foydalanuvchilari koproq va dasturlar koproq
+MacOS - Apple faqat apple qurilmarida ishlaydi
+Linux - GNU - asosan dasturchilar va tarmoq administratorlari uchun
+
+Win + R >> diskmgmt.msc
+CTRL + Shift + Esc
+Win + E - Explorer - Fayl menejeri
