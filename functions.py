@@ -68,29 +68,7 @@
 #         "military":True
 #     },
 # ]
-task2
-omadli bilet
-bilet raqami 6 ta raqamdan iborat bo'ladi, agar bilet raqamida toq o'rindagilar bilan juft o'rindagilar yig'indisi teng bo'lsa, bu omadli bilaet deyiladi.
-input: 546326, 532678
-Number(string)
-out: 'omadli bilet'
-let s=prompt('>>>')
-let juft=0
-let toq=0
-for (let i=0; i<s.length; i++){
-    if (Number(s[i])%2==0){
-        juft++
-    }
-    else{
-        toq++
-    }
-}
-if (juft==toq){
-    console.log('omadli')
-}
-else{
-    console.log('omadsiz')
-}
+
 
 
 
