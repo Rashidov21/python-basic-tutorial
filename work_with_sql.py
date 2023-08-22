@@ -30,3 +30,17 @@
 #     conn.close() # db boglanishni yopish
 #     print("Success !")
 
+# View images 
+import requests
+# query = requests.get(f"https://api.unsplash.com/photos/?client_id={ACCESS_KEY}")
+# print(query.json())
+ACCESS_KEY = "sqwrqufHCGjCQMhgzRGTboWWBg9ANr2Litex75_frGI"
+query = "apple"
+url = f"https://api.unsplash.com/search/photos/?page=1&{query}=apple&client_id={ACCESS_KEY}"
+
+print(requests.get(url).json())
+# Download image from url 
+# import wget
+# url = 'file url'
+# out_filepath = "./photos"
+# filename = wget.download(url, out=out_filepath)
