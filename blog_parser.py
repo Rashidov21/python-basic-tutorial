@@ -2,17 +2,26 @@ import sqlite3
 import requests
 from bs4 import BeautifulSoup
 
-import tts
+HEADERS = {
+    "User Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+}
 
-url = "https://pyblog.uz/"
-pagination = "?page="
+url = "https://www.transfermarkt.com/sommertransfers/saisontransfers/statistik?transferfenster=sommertransfers&saison_id=2023"
+soup = BeautifulSoup(requests.get(url, headers=HEADERS).text, "html.parser")
+print(soup)
+print(soup.find("table", class_="items"))
 
-conn = sqlite3.connect("some_data.db", check_same_thread=False)
-cur = conn.cursor()
 
-query = """SELECT * FROM titles WHERE title LIKE '%Python%' OR title LIKE '%python%'"""
-data = cur.execute(query)
-print(data.fetchall())
+
+# url = "https://pyblog.uz/"
+# pagination = "?page="
+
+# conn = sqlite3.connect("some_data.db", check_same_thread=False)
+# cur = conn.cursor()
+
+# query = """SELECT * FROM titles WHERE title LIKE '%Python%' OR title LIKE '%python%'"""
+# data = cur.execute(query)
+# print(data.fetchall())
 
 # soup = BeautifulSoup(requests.get(url).text, "html.parser")
 # for i in range(1,18):
