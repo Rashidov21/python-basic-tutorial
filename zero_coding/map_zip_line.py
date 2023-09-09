@@ -19,18 +19,21 @@
 # '''
 
 # task 2 
-# price = [[9.9, 9.8, 9.8, 9.4, 9.5, 9.7],
-#  [9.5, 9.4, 9.4, 9.3, 9.2, 9.1],
-#  [8.4, 7.9, 7.9, 8.1, 8.0, 8.0],
-#  [7.1, 5.9, 4.8, 4.8, 4.7, 3.9]]
+price = [[9.9, 9.8, 9.8, 9.4, 9.5, 9.7],
+ [9.5, 9.4, 9.4, 9.3, 9.2, 9.1],
+ [8.4, 7.9, 7.9, 8.1, 8.0, 8.0],
+ [7.1, 5.9, 4.8, 4.8, 4.7, 3.9]]
 # berilgan massivdan har ikkinchi elementlardan iborat alohida massiv hosil qiling
 
 # task 3 
-# visitors = ['Firefox', 'corrupted', 'Chrome', 'corrupted',
-#  'Safari', 'corrupted', 'Safari', 'corrupted',
-#  'Chrome', 'corrupted', 'Firefox', 'corrupted']
+visitors = ['Firefox', 'corrupted', 'Chrome', 'corrupted',
+ 'Safari', 'corrupted', 'Safari', 'corrupted',
+ 'Chrome', 'corrupted', 'Firefox', 'corrupted']
 # berilgan massivdagi har ikkinchi element qiymatini undan oldingi elementniki bilan almashtiring alohida massiv ochilmaydi
-# visitors[1::2] = visitors[::2]
+
+
+
+
 # print(visitors)
 # arr = list(range(1,15))
 # for i in range(0,len(arr),2):
