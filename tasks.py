@@ -111,3 +111,24 @@
 
 # task 12
 # Abdulloh ni Asaka Bank da har oy kirim X mln puli bor va davlatga shu daromad pullaridan 12% daromad solig’i to’lashi kerak. Abdulloh bu yilning 5- oyda davlatimizga qancha soliq to’lashini hisoblang.// x=int(input())
+
+# task 13 
+# Сделайте парсинг данных Твиттер и создайте бот, который автоматически делает ретвиты популярных  сообщений.
+
+# task 14 
+# berilgan sonlardan iborat massivda qaysi sonlar takrorlanayotganini va necha marta takrorlanganin hisoblovchi algoritm tuzing
+# input :arr = [1,2,0,1,3,4,2,5,0,0]
+# output: 1 = 2 , 2 = 2 , 0 = 3 
+arr = [1,2,0,1,3,4,2,5,0,0]
+for i in arr:
+    c = arr.count(i)
+    if c > 1 :
+        for k in arr:            
+                if i == k:
+                    arr.remove(k) 
+
+        print(f"{i} dan {c} ta")
+# task 15
+# berilgan sonlardan iborat massivda  takrorlanayotgan sonlarni indekslariga qarab eng oxirgi nusxasini o'chirib tashlang 
+# input : arr = [1,2,3,1,4,5,1,3,2]
+# output : [1,2,3,1,4,5]
