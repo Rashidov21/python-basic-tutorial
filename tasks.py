@@ -146,6 +146,7 @@ b = ["abc:123", "cde:456", "a:12345", "777:xyz"]
 # berilgan qatorda nechta kamon o'qi bor ekanini toping , kamon o'qlari bu 2 ta "-" va 1 ta ">" belgisidan iborat boladi
 # input : <<<<>>--><--<<--<<>>>--><<<<<
 # output : 4
+
 # task 18 
 # Avtobus bileti 6 ta raqamdan iborat boladi va avtobusda qachon kimga bilet raqami 1- 3ta soni 2- 3 sonini qiymatiga teng bo'lsa u omadli bilet egasi boladi siz shunday biletni topishingiz kerak 
 # bilet raqami : 385916 bo'lsa 3+8+5=9+1+6 
