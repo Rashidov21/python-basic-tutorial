@@ -132,3 +132,20 @@ for i in arr:
 # berilgan sonlardan iborat massivda  takrorlanayotgan sonlarni indekslariga qarab eng oxirgi nusxasini o'chirib tashlang 
 # input : arr = [1,2,3,1,4,5,1,3,2]
 # output : [1,2,3,1,4,5]
+
+# task 16 
+a = ["abc:123", "cde:456", "a:12345", "777:xyz"] 
+b = ["abc:456", "cde:123", "a:xyz", "777:12345"]
+
+a = ["abc:456", "cde:123", "a:xyz", "777:12345"] 
+b = ["abc:123", "cde:456", "a:12345", "777:xyz"]
+
+# a massivda berilgan  string elementlarini : lari bo'yicha olib b massivdagi huddi shu elementlar bilan o'rnini almashtiring
+
+# task 17 
+# berilgan qatorda nechta kamon o'qi bor ekanini toping , kamon o'qlari bu 2 ta "-" va 1 ta ">" belgisidan iborat boladi
+# input : <<<<>>--><--<<--<<>>>--><<<<<
+# output : 4
+# task 18 
+# Avtobus bileti 6 ta raqamdan iborat boladi va avtobusda qachon kimga bilet raqami 1- 3ta soni 2- 3 sonini qiymatiga teng bo'lsa u omadli bilet egasi boladi siz shunday biletni topishingiz kerak 
+# bilet raqami : 385916 bo'lsa 3+8+5=9+1+6 
