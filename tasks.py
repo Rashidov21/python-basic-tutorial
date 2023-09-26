@@ -149,4 +149,29 @@ b = ["abc:123", "cde:456", "a:12345", "777:xyz"]
 
 # task 18 
 # Avtobus bileti 6 ta raqamdan iborat boladi va avtobusda qachon kimga bilet raqami 1- 3ta soni 2- 3 sonini qiymatiga teng bo'lsa u omadli bilet egasi boladi siz shunday biletni topishingiz kerak 
-# bilet raqami : 385916 bo'lsa 3+8+5=9+1+6 
+# bilet raqami : 385916 bo'lsa 3+8+5=9+1+6 tas
+
+
+# task 19 
+# sometimes = [
+#     {'date':'2022/10/11'},
+#     {'date':'2023/02/05'},
+#     {'date':'2005/05/15'},
+#     {'date':'2004/03/25'},
+#     {'date':'2006/11/22'},
+#     {'date':'2009/10/30'},
+#     {'date':'2012/06/10'},
+# ]
+# ushbu ma'lumotlardagi sanalarni tekshiring va 2007-yildan keyingi sanalarni barchasini ekranga chiqaring
+
+# task 20 
+# datetime moduli orqali json faylga 20 ta turli tasodify sana va vaqt ma'lumotlarini yozing (datetime,random , json)
+# import datetime
+
+# print(type(datetime.date(2002,10,30))) # 2002-10-30
+
+# task 21 
+# yuqoridagi json faylni oching va sana obyektlarini oling , sana 2002-10-05 dan katta bo'lgan barcha sanalarni alohida massivga yozing    
+
+# task 22 
+# json fayldagi sanalarni olib ularni hozirgi vaqtga hisoblang va shu sanada tugilgan insonlar hozir necha yosh ekanini aniqlab ularni fake ismlar bilan user.db ga yozing , users.db da users nomli table va unda 2 ta ustun mavjud bolib name va age larni saqlaydi
