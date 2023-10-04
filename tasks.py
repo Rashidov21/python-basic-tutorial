@@ -175,3 +175,13 @@ b = ["abc:123", "cde:456", "a:12345", "777:xyz"]
 
 # task 22 
 # json fayldagi sanalarni olib ularni hozirgi vaqtga hisoblang va shu sanada tugilgan insonlar hozir necha yosh ekanini aniqlab ularni fake ismlar bilan user.db ga yozing , users.db da users nomli table va unda 2 ta ustun mavjud bolib name va age larni saqlaydi
+
+# task 23 
+# Ismlar txt faylidan faqat "jon" qo'shimchasi bor ismlarni olib alohida txt faylga yozing , ismni tartib raqami bilan va ismni to'liq holda yozish kerak 
+
+# task 24
+# Ismlar txt faylidagi ismlarni bosh harfini foydalanuvchi kiritadi va siz shu harf bilan boshlanadigan ismlar sonini aniqlashingiz kerak 
+
+# task 25
+# Ismlar txt faylidagi ismlarni har birini harfi bilan alohida txt fayl ochib alohida alohida qilib yozib chiqing
+# misol : letter_a.txt , letter_b.txt va ushbu fayllarda barcha shu harf bilan boshlangan ismlar bo'ladi 
