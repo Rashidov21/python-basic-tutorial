@@ -185,3 +185,4 @@ b = ["abc:123", "cde:456", "a:12345", "777:xyz"]
 # task 25
 # Ismlar txt faylidagi ismlarni har birini harfi bilan alohida txt fayl ochib alohida alohida qilib yozib chiqing
 # misol : letter_a.txt , letter_b.txt va ushbu fayllarda barcha shu harf bilan boshlangan ismlar bo'ladi 
+
